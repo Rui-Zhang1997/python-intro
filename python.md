@@ -199,21 +199,19 @@ class A:
         return self.value
         
 a = A(10) # initializes variable `a` to equal an instance of class A where
-		  # a.value =
+		  # a.value is 110
 ```
-\subsubsection{Notes}
-Java does not allow inheriting from multiple classes as that runs into the diamond problem, which is if a class C inherits from
-classes A and B and they each have a foo() function inside with the same method signature, which one do you run? Python solves
-this by using the order of inheritence so if one did class C(A,B) it would check A for foo() then B for foo().
+### Notes
+Java does not allow inheriting from multiple classes as that runs into the diamond problem, which is if a class C inherits from classes A and B and they each have a foo() function inside with the same method signature, which one do you run? Python solves this by using the order of inheritance so if one did class C(A,B) it would check A for foo() then B for foo().
 
-\section{Programming Constructs}
-\subsection{Lambdas}
+# Programming Constructs
+### Lambdas
 Sometimes there is something that can be done by a function but it is a single line, or one is in a situation where there is
 a function that requires another function as an argument but it is only a single-line function. At this point, one would use
 a lambda, which can be thought of as an anonymous function:
-\begin{verbatim}
+```python
 lambda <variables>: <expression>
-\end{verbatim}
+```
 The value of <expression> is returned from the function (if it does not return anything, for example if it is a print statement,
 it returns None). Lambdas can also be assigned to variables as well.
 \subsection{Comprehensions}
@@ -349,6 +347,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTA5Njk0NiwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbLTQ2NTU4Mzc0OSwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
