@@ -163,23 +163,24 @@ else:
 	<name not found code>
 <other code>
 ```
-## Classes
+### Classes
 Python is an object-oriented language, meaning that it supports classes. Class declarations are as follows:
-\begin{Verbatim}[xleftmargin=0.5in]
+```python
 class <class name>:
 	<functions>
     
-IF INHERITING:
+#IF INHERITING:
 
 class <class name>(<classes inherited from>):
 	<functions>
-\end{Verbatim}
-The constructor for a class is a special function called the \_\_init\_\_ function, which is empty by default. All instance functions
-follow the same pattern:
-\begin{Verbatim}[xleftmargin=.5in]
+```
+The constructor for a class is a special function called the \_\_init\_\_ function, which is empty by default.
+
+All instance functions are defi
+```python
 def <function name>(<self-reference-variable>, <variables>):
 	<code>
-\end{Verbatim}
+```
 The self-reference variable allows the instance function to reference the instance itself, allowing the function to access
 instance functions and variables (e.g. self.variable or self.function()). If one is making a static function (or static method, as it is so called in Python), one not need
 the self-reference-variable and also append the @classmethod decorator, e.g.
@@ -349,6 +350,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMDg2NzEsLTE0ODA1ODc5MSw0MTU2OD
-gzOTldfQ==
+eyJoaXN0b3J5IjpbLTY0ODE0NTk0NywtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
