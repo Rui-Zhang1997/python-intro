@@ -82,16 +82,20 @@ for <variable> in range(10):
 Which will iterate from 0 to 10. The syntax for the range function is as follows:
 ```python
 range(end) # goes from 0 to end-1
-range(start, end) <-- goes from start to end-1
-range(start, end, step) <-- goes from start to end-1 where
-	each iteration increments the variable by step
+range(start, end) # goes from start to end-1
+range(start, end, step) # goes from start to end-1 where
+						# each iteration increments the variable by step
 ```
-The last one allows us to step backwards, such as from 10 to 0 one would do range(10, -1, -1), as range stops at the stop value.
-This is very useful when iterating over a list, dict, sets, and tuple. For lists, sets, and tuples, iteration is the same:
-\begin{Verbatim}[xleftmargin=0.5in]
+The last one allows us to step backwards, such as from 10 to 0 one would do `range(10, -1, -1)`, as range stops at the stop value. This is very useful when iterating over a list, dict, sets, and tuple. For lists, sets, and tuples, iteration is the same:
+```python
 for <variable> in <some list, set, or tuple>:
 	<code>
-    
+
+E.G.
+
+list
+for i in 
+ ```
 The above assigns <variable> a value of an element in the list or tuple.
 
 If one also needs the index, then one would do
@@ -334,6 +338,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NjMwMjg0MCwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbMTU1NTcwNzQ3MSwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
