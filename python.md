@@ -114,7 +114,6 @@ for <index-variable>, <value-variable> in enumerate(<some-list-set-or-tuple>):
 	<code>
 
 # e.g.
-
 lst = [1, 23, 44, 3]
 for i, v in enumerate(lst):
 	print(i,v)
@@ -149,7 +148,6 @@ while <conditions>:
 Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not found. For example, let us say we are looking for a name. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
 ```python
 # without using for...else...
-
 found = 0
 for name in names:
 	if name == 'John':
@@ -161,7 +159,6 @@ if found == 0:
 <other code>
 
 # using for...else...
-
 for name in names:
 	if name == 'John':
     	<code>
@@ -177,7 +174,6 @@ class <class name>:
 	<functions>
     
 # if inheriting from other classes
-
 class <class name>(<classes inherited from>):
 	<functions>
 ```
@@ -218,11 +214,10 @@ Sometimes there is something that can be done by a function but is only one expr
 lambda <variables>: <expression>
 
 # e.g.
-
 add_one = lambda v: v + 1
 c = add_one(10) # c == 11
-# e.g.
 
+# e.g.
 get_remainder = lambda a, b: a % b
 c = get_remainder(5, 3) # c == 2
 ```
@@ -231,7 +226,6 @@ The value of `expression` is returned from the function (if it does not return a
 One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to perform an operation on a list to produce another list. For example, let us make a list of the squares of numbers from 0 to 9.
 ```c
 // in C:
-
 int squares[10];
 int i;
 for (i = 0; i < 10; i++) {
@@ -240,7 +234,6 @@ for (i = 0; i < 10; i++) {
 ```
 ```java
 // in Java
-
 int[] squares = new int[10];
 for (int i = 0; i < 10; i++) {
 	squares[i] = i * i;
@@ -253,7 +246,6 @@ for i in range(10):
 	squares.append(i * i)
 	
 # in python with list comprehensions
-
 squares = [i * i for i in range(10)]
 ```
 While a trivial example, it is meant to demonstrate the power of comprehensions. They allow programmers to shrink code that would take multiple lines into a single expression. The most basic form of the list comprehension is:
@@ -357,6 +349,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTMwNDIwMywzMDcwMTU2NjYsLTE0NT
-U2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbLTE0ODMxOTk5MTcsMzA3MDE1NjY2LC0xND
+U1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
