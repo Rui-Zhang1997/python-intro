@@ -216,7 +216,7 @@ Sometimes there is something that can be done by a function but it is a single l
 ```python
 lambda <variables>: <expression>
 ```
-The value of <expression> is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
+The value of ` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
 ### Comprehensions
 One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to produce a list from a dataset. For example, let us make a list of the squares of numbers from 0 to 9.
 ```c
@@ -338,6 +338,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MT
-U2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbLTEwNDIwMzIzNDYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
