@@ -70,21 +70,22 @@ while <conditions>:
 #### For Loops
 Note that the for loop is not your standard for loop, which has the form 
 ```
-for (initialization; test; increment)
+for (initialization; test; increment) {
+	<code>
+}
 ```
-. If one needs to
-iterate over an integer range, such as from 0 to 9, then one can use range like so:
-\begin{Verbatim}[xleftmargin=0.5in]
+. If one needs to iterate over an integer range, such as from 0 to 9, then one can iterate over that range in Python like so:
+```python
 for <variable> in range(10):
 	<code>
-\end{Verbatim}
+```
 Which will iterate from 0 to 10. The syntax for the range function is as follows:
-\begin{Verbatim}[xleftmargin=0.5in]
-range(end) <-- goes from 0 to end-1
+```python
+range(end) # goes from 0 to end-1
 range(start, end) <-- goes from start to end-1
 range(start, end, step) <-- goes from start to end-1 where
 	each iteration increments the variable by step
-\end{Verbatim}
+```
 The last one allows us to step backwards, such as from 10 to 0 one would do range(10, -1, -1), as range stops at the stop value.
 This is very useful when iterating over a list, dict, sets, and tuple. For lists, sets, and tuples, iteration is the same:
 \begin{Verbatim}[xleftmargin=0.5in]
@@ -333,6 +334,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNTY0MDU3LC0xNDgwNTg3OTEsNDE1Nj
-g4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTg5NjMwMjg0MCwtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
