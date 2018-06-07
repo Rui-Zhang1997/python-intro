@@ -30,13 +30,13 @@ The basic syntax of a Python function follows standard function declaration form
 def <function name>(<parameters, if any>):
 ````
 followed by code. All code must be indented by one and only one indent following a function declaration. There is no return type.
-\subsection{Conditionals}
+### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
 if (not) <condition> (and|or) <condition> .... :
 ```
-Python does not use operators such as `!`, `&`, and `||` to denote negation, and, or but instead uses `not`, `and`,  `or`, respectively. Using the symbols results in a `SyntaxError`. There is also another operator which is `in`, allowing one to test for membership within a collection
-```
+Python does not use operators such as `!`, `&`, and `||` to denote negation, and, or but instead uses `not`, `and`,  `or`, respectively. Using the symbols results in a `SyntaxError`. There is also another operator which is `in`, allowing one to test for membership within a collection. For example,
+```python
 'hello' in 'hello world'
 
 OR
@@ -47,17 +47,17 @@ OR
 
 'apples' not in ['pears', 'lemons', 'grapes']
 ```
-\subsubsection{Ternary Operator}
-Python does not have a ternary operator (<condition> ? <execute if true> : <execute if false>) and this was a design choice.
+#### Ternary Operators
+Python does not have a ternary operator (`<condition> ? <execute if true> : <execute if false>`) and this was a design choice.
 Instead, one can use a modified if else:
-\begin{Verbatim}
+```python
 <value if condition true> if <condition> else <value if condition false
 
 E.G.
 
 a = 10
 b = a-1 if a == 10 else a+1
-\end{Verbatim}
+```
 \subsection{Loops}
 Python has loops, {\em while} and {\em for}, which has the following syntax.
 \begin{Verbatim}[xleftmargin=0.5in]
@@ -329,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczODg4NjI3LC0xNDgwNTg3OTEsNDE1Nj
+eyJoaXN0b3J5IjpbNDY4ODI4ODE1LC0xNDgwNTg3OTEsNDE1Nj
 g4Mzk5XX0=
 -->
