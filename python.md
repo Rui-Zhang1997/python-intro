@@ -302,7 +302,6 @@ squares = map(lambda i: i * i, range(10))
 filter(<test function>, <collection>)
 
 # e.g.
-
 evens = filter(lambda i: i % 2 == 0, range(100))
 ```
 filter is *lazy* as well.
@@ -312,16 +311,15 @@ a = [1, 11, 3, 4]
 sorted(a)
 # a is now [1, 3, 4, 11]
 
-# WITH KEY FUNCTION
-
+# with "key function"
 sorted(<collection>, <key function>)
 
-# E.G.
+# e.g.
 a = [(3,2), (1,1), (4, -1)]
 sorted(a) # result: [(1,1), (3,2), (4,-1)]
 sorted(a, lambda k: k[1]) # result: [(4,-1), (1,1), (3,2)]
 
-# REVERSING
+# reverse the sorted list
 a = [4, 2, 3, 1]
 sorted(a, reversed=True) # result: [4, 3, 2, 1]
 ```
@@ -339,6 +337,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NDY2NzYyMiwzMDcwMTU2NjYsLTE0NT
+eyJoaXN0b3J5IjpbMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NT
 U2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
