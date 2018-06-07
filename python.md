@@ -93,10 +93,17 @@ for <variable> in <some list, set, or tuple>:
 
 E.G.
 
-list
-for i in 
+lst = [1, 23, 44, 3]
+for i in lst:
+	print(i)
+
+OUTPUT IS
+1
+23
+44
+3
  ```
-The above assigns <variable> a value of an element in the list or tuple.
+The above assigns `<variable> a value of an element in the list or tuple.
 
 If one also needs the index, then one would do
 for <index-variable>, <value-variable> in enumerate(<some-list-set-or-tuple>):
@@ -338,6 +345,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTcwNzQ3MSwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbLTczMzg3MjY5OCwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
