@@ -182,13 +182,13 @@ def <function name>(<self-reference-parameter>, <parameters>):
 	<code>
 ```
 The first parameter of an instance function is the *self parameter*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). If one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line above, e.g.
-\begin{Verbatim}[xleftmargin=.5in]
+```python
 @classmethod
-def <function-name>(<variables):
-	<code
-\end{Verbatim}
+def <function-name>(<parameters>):
+	<code<
+```
 Creating an instance of a class is just like any other OOP language:
-\begin{Verbatim}[xleftmargin=.5in]
+```python
 class A:
 	def __init__(self, value):
     	self.value = value
@@ -198,8 +198,9 @@ class A:
     	self.increment()
         return self.value
         
-a = A(10)
-\end{Verbatim}
+a = A(10) # initializes variable `a` to equal an instance of class A where
+		  # a.value =
+```
 \subsubsection{Notes}
 Java does not allow inheriting from multiple classes as that runs into the diamond problem, which is if a class C inherits from
 classes A and B and they each have a foo() function inside with the same method signature, which one do you run? Python solves
@@ -348,6 +349,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzgyODMyOCwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbLTMwMTA5Njk0NiwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
