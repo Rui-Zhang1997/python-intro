@@ -20,10 +20,10 @@ Python has types:
 # Syntax
 ### Variables
 All variables are created and initialized at once, unlike in C or Java where you can do
-\begin{Verbatim}[xleftmargin=0.5in]
+```python
 	int a
-\end{Verbatim}
-If a variable should not have an initial value, then one can assign it ``None''.
+```
+If a variable should not have an initial value, then one can assign it `None`.
 \section{Function}
 The basic syntax of a Python function follows standard function declaration formats i.e.
 \begin{Verbatim}[xleftmargin=0.5in]
@@ -329,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjUyNDI4MCwtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbODU0NjM5NDE0LC0xNDgwNTg3OTEsNDE1Nj
+g4Mzk5XX0=
 -->
