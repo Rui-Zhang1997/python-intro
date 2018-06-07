@@ -21,7 +21,7 @@ Python has types:
 ### Variables
 All variables are created and initialized at once, unlike in C or Java where you can do
 ```python
-	int a
+int a
 ```
 If a variable should not have an initial value, then one can assign it `None`.
 ### Functions
@@ -334,6 +334,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMxNDI4NSwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbMTEzNTU3NTMzOSwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
