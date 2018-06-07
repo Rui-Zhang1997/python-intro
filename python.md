@@ -39,11 +39,11 @@ Python does not use operators such as `!`, `&`, and `||` to denote negation, and
 ```python
 'hello' in 'hello world'
 
-OR
+# OR
 
 1 in [1, 2, 3, 4]
 
-OR
+# OR
 
 'apples' not in ['pears', 'lemons', 'grapes']
 ```
@@ -53,7 +53,7 @@ Instead, one can use a modified if else:
 ```python
 <value if condition true> if <condition> else <value if condition false
 
-E.G.
+# E.G.
 
 a = 10
 b = a-1 if a == 10 else a+1
@@ -105,7 +105,7 @@ OUTPUT IS
  ```
 The above assigns `<variable>` a value of an element in the list or tuple. If one also needs the index, then one would do
 
-```pyt
+```python
 for <index-variable>, <value-variable> in enumerate(<some-list-set-or-tuple>):
 	<code>
 
@@ -121,6 +121,7 @@ for i, v in enumerate(lst):
 2 44
 3 3
  ```
+ 
 which will assign the index of each element to the first variable and the value to the second variable.
 
 For dictionaries, it is very similar:
@@ -348,6 +349,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjA3MTQwNCwtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbLTE3OTI2NjYxNjIsLTE0ODA1ODc5MSw0MT
+U2ODgzOTldfQ==
 -->
