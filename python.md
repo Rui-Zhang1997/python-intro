@@ -140,10 +140,9 @@ while <conditions>:
 	<code>
 ```
 ### Notes
-Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not f. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
-\begin{Verbatim}[xleftmargin=0.5in]
-WITHOUT USING for...else
-
+Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not found. For example, let us say we are looking for a name. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
+```python
+#WITHOUT USING for...else
 found = 0
 for name in names:
 	if name == 'John':
@@ -154,7 +153,7 @@ if found == 0:
 	<name not found code>
 <other code>
 
-WITH USING for...else
+#WITH USING for...else
 
 for name in names:
 	if name == 'John':
@@ -163,9 +162,8 @@ for name in names:
 else:
 	<name not found code>
 <other code>
-
-\end{Verbatim}
-\subsection{Classes}
+```
+## Classes
 Python is an object-oriented language, meaning that it supports classes. Class declarations are as follows:
 \begin{Verbatim}[xleftmargin=0.5in]
 class <class name>:
@@ -351,6 +349,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NTcwNTUsLTE0ODA1ODc5MSw0MTU2OD
+eyJoaXN0b3J5IjpbMjgzMDg2NzEsLTE0ODA1ODc5MSw0MTU2OD
 gzOTldfQ==
 -->
