@@ -274,7 +274,7 @@ some_dict = {k: foo(k) for k in a_list}
 ```
 ### Built-in Functions
 Python provided a lot of useful built-in functions as well.
-**map** The `map` function is very useful in taking a collection and apply a given function to it. This is very similar to a list comprehension however map is lazy unlike comprehensions which are eager. Sometimes, we might not need an entire list at once but small chunks or even a single element of it, do some work on it, and go on to the next small segment. With a list comprehension, all the data is always stored in memory which, if we are dealing with a lot of data, may not be the best thing for us to do. With a map, only when we need that particular segment of the list is the data actually processed. For example, if we have a list of names and want to pull the accounts associated with the names and send some notices, if there is a lot of data per individual then it would be very expensive memory-wise to store all of that in a list. Instead, with a map, we can pull data for a single name, process it, and then go on to the next one, which allows us to save space as we are storing a single user's data at a time. This also comes with the drawback that we cannot reference a previous value in the map as it can be thought of as removed from memory. However, if one uses a map and then wants to convert it to a list, then one can just apply the `list()` function to the map and it will generate the list. It is defined as follows:
+**map** The `map` function is very useful in taking a collection and apply a given function to it. This is very similar to a list comprehension however map is *lazy* unlike comprehensions which are *eager*. Sometimes, we might not need an entire list at once but small chunks or even a single element of it, do some work on it, and go on to the next small segment. With a list comprehension, all the data is always stored in memory which, if we are dealing with a lot of data, may not be the best thing for us to do. With a map, only when we need that particular segment of the list is the data actually processed. For example, if we have a list of names and want to pull the accounts associated with the names and send some notices, if there is a lot of data per individual then it would be very expensive memory-wise to store all of that in a list. Instead, with a map, we can pull data for a single name, process it, and then go on to the next one, which allows us to save space as we are storing a single user's data at a time. This also comes with the drawback that we cannot reference a previous value in the map as it can be thought of as removed from memory. However, if one uses a map and then wants to convert it to a list, then one can just apply the `list()` function to the map and it will generate the list. It is defined as follows:
 ```python
 map(<function name or lambda>, collection)
 
@@ -291,16 +291,15 @@ notices_sent = map(send_notices, names)
 
 squares = map(lambda i: i * i, range(10))
 ```
-**filter** The `filter` function does what it sounds like it does: filters through a collection based on a specific criteria.
-The function given must return a boolean.
-\begin{verbatim}
+**filter** The `filter` function does what it sounds like it does: filters through a collection based on a specific criteria. The function passed as the first parameter must given must return a boolean.
+```python
 filter(<test function>, <collection>)
 
-e.g.
+# E.G.
 
 evens = filter(lambda i: i % 2 == 0, range(100))
-\end{verbatim}
-filter is lazy as well.
+```
+filter is *lazy* as well.
 {\bf sorted} The {\em sorted} function sorts a list. However, it is destructive, as in it modifies the original list. Given a simple
 list like an array of integers it will sort it how one expects it to (unlike Javascript). However, if it is a list of tuples and one
 wishes to sort by the second element, then one needs to give a key function, which specifies which element to sort by
@@ -320,7 +319,11 @@ REVERSING
 a = [4, 2, 3, 1]
 sorted(a, reversed=True) <--- [4, 3, 2, 1]
 \end{verbatim}
-{\bf reversed} - Reverse an existing ordered collection (like a list). However, it is also lazy.
+{\bf reversed} - Reverse an existing ordered collection (like a list). However, it is also *lazy*
+
+
+
+.
 
 {\bf zip}
 
@@ -334,6 +337,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDczMTY5MTMsLTE0ODA1ODc5MSw0MTU2OD
-gzOTldfQ==
+eyJoaXN0b3J5IjpbMzAxMTg3OTMzLC0xNDgwNTg3OTEsNDE1Nj
+g4Mzk5XX0=
 -->
