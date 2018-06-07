@@ -123,24 +123,22 @@ OUTPUT IS
 which will assign the index of each element to the first variable and the value to the second variable.
 
 For dictionaries, it is very similar:
-\begin{Verbatim}[xleftmargin=0.5in]
+```python
 for <key> in <some-dict>:
 	<code>
-    
-Which will assign each key to the <key> variable.
-For both key-value,
-
+ ```
+Which will assign each key of the dictionary to the `key` variable. For both key-value,
+```python
 for <key>, <value> in <some-dict>.items():
 	<code>
-    
+ ```
 Will assign key to the first variable and the value to the second.
-\end{Verbatim}
-\subsubsection{While}
+### While
 While is very similar to whiles in other languages.
-\begin{Verbatim}[xleftmargin=0.5in]
+```python
 while <conditions>:
 	<code>
-\end{Verbatim}
+```
 \subsubsection{Notes}
 In addition, unlike other languages, for and while also take an else clause, which will execute if the loop completes. This is
 useful if one is searching for something in a list, like a name. If a name is found, then one would stop searching but if it
@@ -355,6 +353,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTU3MTk5MiwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbLTU0MjkzMTk4MCwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
