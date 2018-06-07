@@ -176,12 +176,12 @@ class <class name>(<classes inherited from>):
 ```
 The constructor for a class is a special function called the \_\_init\_\_ function, which is empty by default.
 
-All instance functions are defi
+All instance functions are defined as follows:
 ```python
 def <function name>(<self-reference-variable>, <variables>):
 	<code>
 ```
-The self-reference variable allows the instance function to reference the instance itself, allowing the function to access
+The first variable of an instance function is the *self variable*, which is traditionally called "self" but can be called anything 
 instance functions and variables (e.g. self.variable or self.function()). If one is making a static function (or static method, as it is so called in Python), one not need
 the self-reference-variable and also append the @classmethod decorator, e.g.
 \begin{Verbatim}[xleftmargin=.5in]
@@ -350,6 +350,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODE0NTk0NywtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbMTE2MzA2NDg5NywtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
