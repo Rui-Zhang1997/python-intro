@@ -43,11 +43,11 @@ Python does not use operators such as `!`, `&`, and `||` to denote negation, and
 ```python
 'hello' in 'hello world'
 
-# OR
+# or
 
 1 in [1, 2, 3, 4]
 
-# OR
+# or
 
 'apples' not in ['pears', 'lemons', 'grapes']
 ```
@@ -57,7 +57,7 @@ Instead, one can use a modified if else:
 ```python
 <value if condition true> if <condition> else <value if condition false
 
-# E.G.
+# e.g.
 
 a = 10
 b = a-1 if a == 10 else a+1
@@ -95,7 +95,7 @@ The last one allows us to step backwards, such as from 10 to 0 one would do `ran
 for <variable> in <some list, set, or tuple>:
 	<code>
 
-E.G.
+# e.g.
 
 lst = [1, 23, 44, 3]
 for i in lst:
@@ -113,13 +113,13 @@ The above assigns `<variable>` a value of an element in the list or tuple. If on
 for <index-variable>, <value-variable> in enumerate(<some-list-set-or-tuple>):
 	<code>
 
-# E.G.
+# e.g.
 
 lst = [1, 23, 44, 3]
 for i, v in enumerate(lst):
 	print(i,v)
 
-# OUTPUT IS
+# output is
 0 1
 1 23
 2 44
@@ -148,7 +148,8 @@ while <conditions>:
 ### Notes
 Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not found. For example, let us say we are looking for a name. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
 ```python
-# WITHOUT USING for...else
+# without using for...else...
+
 found = 0
 for name in names:
 	if name == 'John':
@@ -159,7 +160,7 @@ if found == 0:
 	<name not found code>
 <other code>
 
-# W
+# using for...else...
 
 for name in names:
 	if name == 'John':
@@ -356,6 +357,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxNDg4NDM1LDMwNzAxNTY2NiwtMTQ1NT
-YxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbMTgxMTMwNDIwMywzMDcwMTU2NjYsLTE0NT
+U2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
