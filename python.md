@@ -212,7 +212,7 @@ Java does not allow inheriting from multiple classes as that runs into the diamo
 
 # Programming Constructs
 ### Lambdas
-Sometimes there is something that can be done by a function but it is a single line, or one is in a situation where there is a function that requires another function as an argument but it is only a single-line function. At this point, one would use a lambda, which can be thought of as an anonymous function:
+Sometimes there is something that can be done by a function but is only one expression, or one is in a situation where there is a function that requires another function as an argument but the function being passed ionly a single expression (such as in cases for `map` or `filter`). At this point, one would use a lambda, which can be thought of as an anonymous function:
 ```python
 lambda <variables>: <expression>
 
@@ -351,6 +351,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
-gwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTE2MTU1NjEyNywzMDcwMTU2NjYsLTE0NT
+U2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
