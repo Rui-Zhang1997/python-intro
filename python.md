@@ -35,8 +35,8 @@ There is a single conditional in Python, which is the {\em if...elif...else}. Un
 ```python
 if (not) <condition> (and|or) <condition> .... :
 ```
-Python does not use operators such as `!`, `&`, and `||` to denote negation, and, or but instead uses ``not'', ` `or`. Using the
-symbols results in a SyntaxError. There is also another operator which is ``in'', allowing one to test for membership within a list like \begin{Verbatim}[xleftmargin=0.5in]
+Python does not use operators such as `!`, `&`, and `||` to denote negation, and, or but instead uses `not`, `and`,  `or`, respectively. Using the symbols results in a `SyntaxError`. There is also another operator which is `in`, allowing one to test for membership within a collection
+```
 'hello' in 'hello world'
 
 OR
@@ -46,7 +46,7 @@ OR
 OR
 
 'apples' not in ['pears', 'lemons', 'grapes']
-\end{Verbatim}
+```
 \subsubsection{Ternary Operator}
 Python does not have a ternary operator (<condition> ? <execute if true> : <execute if false>) and this was a design choice.
 Instead, one can use a modified if else:
@@ -329,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjMzMzk5OCwtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbMjczODg4NjI3LC0xNDgwNTg3OTEsNDE1Nj
+g4Mzk5XX0=
 -->
