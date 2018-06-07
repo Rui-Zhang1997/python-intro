@@ -217,26 +217,28 @@ it returns None). Lambdas can also be assigned to variables as well.
 \subsection{Comprehensions}
 One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to produce
 a list from a dataset. For example, let us make a list of the squares of numbers from 0 to 9.
-\begin{Verbatim}[xleftmargin=.5in]
-IN C99:
+```c
+// IN C:
 
 int squares[10];
 int i;
 for (i = 0; i < 10; i++) {
 	squares[i] = i * i;
 }
-
-IN JAVA
+```
+```java
+// IN JAVA
 
 int[] squares = new int[10];
 for (int i = 0; i < 10; i++) {
 	squares[i] = i * i;
 }
-
-IN PYTHON WITH LIST COMPREHENSIONS
+```
+```python
+#IN PYTHON WITH LIST COMPREHENSIONS
 
 squares = [i * i for i in range(10)]
-\end{Verbatim}
+```
 While a trivial example, list comprehensions allows programmers to shrink code that would take multiple lines into a single expression. The most basic form of the list comprehension is:
 \begin{verbatim}
 [<expression with variable> for <variable> in <collection>]
@@ -347,6 +349,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NTU4Mzc0OSwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbLTc0ODkwNDM5NywtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
