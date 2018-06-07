@@ -44,11 +44,9 @@ Python does not use operators such as `!`, `&`, and `||` to denote negation, and
 'hello' in 'hello world'
 
 # or
-
 1 in [1, 2, 3, 4]
 
 # or
-
 'apples' not in ['pears', 'lemons', 'grapes']
 ```
 #### Ternary Operators
@@ -58,7 +56,6 @@ Instead, one can use a modified if else:
 <value if condition true> if <condition> else <value if condition false
 
 # e.g.
-
 a = 10
 b = a-1 if a == 10 else a+1
 ```
@@ -96,12 +93,11 @@ for <variable> in <some list, set, or tuple>:
 	<code>
 
 # e.g.
-
 lst = [1, 23, 44, 3]
 for i in lst:
 	print(i)
 
-OUTPUT IS
+# output
 1
 23
 44
@@ -253,19 +249,16 @@ While a trivial example, it is meant to demonstrate the power of comprehensions.
 [<expression> for <variable> in <collection>]
 
 # e.g.
-
 [foo(i) for i in [1, 2, 3, 4, 5]]
 
-# OR
-
+# or
 [(k,v) for k,v in dictionary.items()]
 ```
 One can also do some basic filtering in these comprehensions
 ```python
 a = [<expression> for <variable> in <collection> if <condition>]
 
-# E.G.
-
+# e.g.
 a = [i * i for i in range(10) if i % 2 == 0]
 	# ^^^ generate list of squares for positive numbers only
 ```
@@ -283,8 +276,7 @@ However, this is not only for lists. This can be used for dicts as well:
 ```python
 {<key>: <value> for <variables> in <collection>}
 
-# E.G.
-
+# e.g.
 some_dict = {k: foo(k) for k in a_list}
 ```
 ### Built-in Functions
@@ -294,8 +286,7 @@ Python provided a lot of useful built-in functions as well.
 ```python
 map(<function name or lambda>, collection)
 
-# E.G.
-
+# e.g.
 def send_notices(username):
 	data = get_large_data(username)
     return send_notices_if_condition(data)
@@ -303,15 +294,14 @@ def send_notices(username):
 names = ['John Doe', 'Jane Hathaway', ... ]
 notices_sent = map(send_notices, names)
 
-# OR
-
+# or
 squares = map(lambda i: i * i, range(10))
 ```
 **filter** The `filter` function does what it sounds like it does: filters through a collection based on a specific criteria. The function passed as the first parameter must given must return a boolean.
 ```python
 filter(<test function>, <collection>)
 
-# E.G.
+# e.g.
 
 evens = filter(lambda i: i % 2 == 0, range(100))
 ```
@@ -349,6 +339,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODMxOTk5MTcsMzA3MDE1NjY2LC0xND
-U1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTk1NDY2NzYyMiwzMDcwMTU2NjYsLTE0NT
+U2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
