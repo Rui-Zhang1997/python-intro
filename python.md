@@ -103,15 +103,25 @@ OUTPUT IS
 44
 3
  ```
-The above assigns `<variable> a value of an element in the list or tuple.
-
-If one also needs the index, then one would do
+The above assigns `<variable>` a value of an element in the list or tuple. If one also needs the index, then one would do
+```python
 for <index-variable>, <value-variable> in enumerate(<some-list-set-or-tuple>):
 	<code>
-    
-which will assign the index of each element to
-the first variable and the value to the second variable
-\end{Verbatim}
+
+E.G.
+
+lst = [1, 23, 44, 3]
+for i, v in enumerate(lst):
+	print(i,v)
+
+OUTPUT IS
+0 1
+1 23
+2 44
+3 3
+ ```
+which will assign the index of each element to the first variable and the value to the second variable.
+
 For dictionaries, it is very similar:
 \begin{Verbatim}[xleftmargin=0.5in]
 for <key> in <some-dict>:
@@ -345,6 +355,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzg3MjY5OCwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbMjA4NTU3MTk5MiwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
