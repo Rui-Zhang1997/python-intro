@@ -212,7 +212,7 @@ Java does not allow inheriting from multiple classes as that runs into the diamo
 
 # Programming Constructs
 ### Lambdas
-Sometimes there is something that can be done by a function but is only one expression, or one is in a situation where there is a function that requires another function as an argument but the function being passed ionly a single expression (such as in cases for `map` or `filter`). At this point, one would use a lambda, which can be thought of as an anonymous function:
+Sometimes there is something that can be done by a function but is only one expression, or one is in a situation where there is a function that requires another function as an argument but the function being passed in is only a single expression (such as in cases for `map` or `filter`). At this point, one would use a lambda, which can be thought of as an anonymous function:
 ```python
 lambda <variables>: <expression>
 
@@ -227,7 +227,7 @@ c = get_remainder(5, 3) # c == 2
 ```
 The value of `expression` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
 ### Comprehensions
-One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to produce a list from a dataset. For example, let us make a list of the squares of numbers from 0 to 9.
+One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to perform an operation on a list to produce another list. For example, let us make a list of the squares of numbers from 0 to 9.
 ```c
 // IN C:
 
@@ -246,6 +246,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 ```python
+# in pyt
 # IN PYTHON WITH LIST COMPREHENSIONS
 
 squares = [i * i for i in range(10)]
@@ -351,6 +352,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTU1NjEyNywzMDcwMTU2NjYsLTE0NT
-U2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMzY5MjAyNzc1LDMwNzAxNTY2NiwtMTQ1NT
+YxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5OV19
 -->
