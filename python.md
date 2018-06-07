@@ -178,10 +178,10 @@ The constructor for a class is a special function called the \_\_init\_\_ functi
 
 All instance functions are defined as follows:
 ```python
-def <function name>(<self-reference-variable>, <variables>):
+def <function name>(<self-reference-parameter>, <parameters>):
 	<code>
 ```
-The first variable of an instance function is the *self variable*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). If one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line abov, e.g.
+The first parameter of an instance function is the *self parameter*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). If one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line above, e.g.
 \begin{Verbatim}[xleftmargin=.5in]
 @classmethod
 def <function-name>(<variables):
@@ -348,6 +348,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MzAxMzQxNSwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbLTQ4MzgyODMyOCwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
