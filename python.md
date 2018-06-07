@@ -58,8 +58,8 @@ E.G.
 a = 10
 b = a-1 if a == 10 else a+1
 ```
-\subsection{Loops}
-Python has loops, {\em while} and {\em for}, which has the following syntax.
+### Loops
+Python has loops, `while` and ```for`, which has the following syntax.
 \begin{Verbatim}[xleftmargin=0.5in]
 for <variables> in <collection>:
 	<code>
@@ -329,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4ODI4ODE1LC0xNDgwNTg3OTEsNDE1Nj
-g4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTgxMDAwMzQ3NSwtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
