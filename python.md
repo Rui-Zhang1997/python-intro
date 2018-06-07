@@ -6,10 +6,9 @@ Python is a language designed for code conciseness and rapid prototyping. It is 
 # Types
 Python has types:
 
-   	1. int - integers. Non-decimal values
-  2. float - floats. Decimal values
-       \item str - strings. Can be denoted by single or double quotes. For large multi-line strings one uses triple single or double quotes.
-       \item object - All objects inherit from the base 'object' class.
+1. int - integers. Non-decimal values
+2. float - floats. Decimal values
+3. str - strings. Can be denoted by single or double quotes. For large multi-line strings one uses triple single or double quotes.4. object - All objects inherit from the base 'object' class.
        \item dict - A standard key-value data structure like a dictionary or hashmap. The keys and values do not have to be of one type. The value can be of any type but the key must be hashable (e.g. the key cannot be another dict). Unordered.
        \item list - Similar to an arraylist in java. Similar to an array except it is not fixed size. A list can hold values of multiple types and can hold other lists.
        \item tuple - Similar to a list and can be accessed like a list but cannot be modified (i.e. no value can be added, modified, or removed.
@@ -330,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyNjkyODA0LC0xNDgwNTg3OTEsNDE1Nj
-g4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTg4MTQ5NzgxMSwtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
