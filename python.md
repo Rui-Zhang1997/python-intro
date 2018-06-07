@@ -219,12 +219,11 @@ lambda <variables>: <expression>
 # e.g.
 
 add_one = lambda v: v + 1
-c = 
+c = add_one(10) # c == 11
 # e.g.
 
 get_remainder = lambda a, b: a % b
-
-
+c = get_remainder(5, 3) # c == 2
 ```
 The value of `expression` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
 ### Comprehensions
@@ -352,6 +351,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjU1MDgyNSwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
