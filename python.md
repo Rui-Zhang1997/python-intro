@@ -59,16 +59,20 @@ a = 10
 b = a-1 if a == 10 else a+1
 ```
 ### Loops
-Python has loops, `while` and ```for`, which has the following syntax.
-\begin{Verbatim}[xleftmargin=0.5in]
+Python has loops, `while` and `for`, which has the following syntax.
+```python
 for <variables> in <collection>:
 	<code>
     
 while <conditions>:
 	<code>
-\end{Verbatim}
-\subsubsection{For}
-Note that the for loop is not your standard for loop, which has the form ``for (initialization; test; increment)''. If one needs to
+```
+#### For Loops
+Note that the for loop is not your standard for loop, which has the form 
+```
+for (initialization; test; increment)
+```
+. If one needs to
 iterate over an integer range, such as from 0 to 9, then one can use range like so:
 \begin{Verbatim}[xleftmargin=0.5in]
 for <variable> in range(10):
@@ -329,6 +333,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDAwMzQ3NSwtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbNzAxNTY0MDU3LC0xNDgwNTg3OTEsNDE1Nj
+g4Mzk5XX0=
 -->
