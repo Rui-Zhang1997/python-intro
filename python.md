@@ -208,17 +208,13 @@ Java does not allow inheriting from multiple classes as that runs into the diamo
 
 # Programming Constructs
 ### Lambdas
-Sometimes there is something that can be done by a function but it is a single line, or one is in a situation where there is
-a function that requires another function as an argument but it is only a single-line function. At this point, one would use
-a lambda, which can be thought of as an anonymous function:
+Sometimes there is something that can be done by a function but it is a single line, or one is in a situation where there is a function that requires another function as an argument but it is only a single-line function. At this point, one would use a lambda, which can be thought of as an anonymous function:
 ```python
 lambda <variables>: <expression>
 ```
-The value of <expression> is returned from the function (if it does not return anything, for example if it is a print statement,
-it returns None). Lambdas can also be assigned to variables as well.
-\subsection{Comprehensions}
-One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to produce
-a list from a dataset. For example, let us make a list of the squares of numbers from 0 to 9.
+The value of <expression> is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
+### Comprehensions
+One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to produce a list from a dataset. For example, let us make a list of the squares of numbers from 0 to 9.
 ```c
 // IN C:
 
@@ -262,7 +258,7 @@ a = [<expression w/ variable> for <variable> in <collection> if <condition>]
 a = [i * i for i in range(10) if i % 2 == 0]
 	# ^^^ generate list of squares for positive numbers only
 ```
-One can also nest list comprehensions
+One can also nest comprehensions
 ```python
 sent = "This is a sentence with words"
 sent_long_words_only = [word for word in [word.lower() \
@@ -271,10 +267,12 @@ sent_long_words_only = [word for word in [word.lower() \
 However, this is not only for lists. This can be used for dicts as well:
 ```python
 {<key>: <value> for <variables> in <collection>}
+
 # E.G.
+
 some_dict = {k: foo(k) for k in a_list}
 ```
-\subsection{Useful built-in functions}
+## 
 Python provided a lot of useful built-in functions as well.
 
 {\bf map} The {\em map} function is very useful in taking a collection and apply a given function to it. This is very similar
@@ -349,6 +347,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTI2NjYxNjIsLTE0ODA1ODc5MSw0MT
-U2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbNTYxMjkyNjIsLTE0ODA1ODc5MSw0MTU2OD
+gzOTldfQ==
 -->
