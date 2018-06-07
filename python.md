@@ -23,6 +23,10 @@ All variables are created and initialized at once, unlike in C or Java where you
 ```python
 int a
 ```
+In Python, one must do
+```python
+<variable> = <value>
+```
 If a variable should not have an initial value, then one can assign it `None`.
 ### Functions
 The basic syntax of a Python function follows standard function declaration formats i.e.
@@ -334,6 +338,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNTU3NTMzOSwtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MT
+U2ODgzOTldfQ==
 -->
