@@ -1,23 +1,21 @@
 # Introduction
 Python is a language designed for code conciseness and rapid prototyping. It is widely used in the mathematical and analytical fields due to its simplicity, flexibility, and extensibility as well as providing many libraries created for that purpose. However, it also forms the core stack of many of today's tech companies, such as every major tech company, reddit, dropbox amongst others. Therefore, it is very useful to be able to code in the language, both because it is used by many companies but also because you can stand up personal work extremely quickly.
 # Things To Keep Note
-1. Python is whitespace dependent, so unlike C or Java where whitespace does not matter, it does in Python. Instead of using
-braces to denote which blocks of code belong together indents are used. This helps to keep a uniform code structure. Therefore,
-if there are any inconsistencies in the examples, it is because I do not know how to use Markdown properly. 
+1. Python is whitespace dependent, so unlike C or Java where whitespace does not matter, it does in Python. Instead of using braces to denote which blocks of code belong together indents are used. This helps to keep a uniform code structure. Therefore, if there are any inconsistencies in the examples, it is because I do not know how to use Markdown properly. 
 
 # Types
 Python has types:
-	\begin{enumerate}
-    	\item int - integers. Non-decimal values
-        \item float - floats. Decimal values
-        \item str - strings. Can be denoted by single or double quotes. For large multi-line strings one uses triple single or double quotes.
-        \item object - All objects inherit from the base 'object' class.
-        \item dict - A standard key-value data structure like a dictionary or hashmap. The keys and values do not have to be of one type. The value can be of any type but the key must be hashable (e.g. the key cannot be another dict). Unordered.
-        \item list - Similar to an arraylist in java. Similar to an array except it is not fixed size. A list can hold values of multiple types and can hold other lists.
-        \item tuple - Similar to a list and can be accessed like a list but cannot be modified (i.e. no value can be added, modified, or removed.
-        \item set - Each element can only appear once. Unordered.
-        \item function - A defined function
-        \item class - A defined class
+
+   	1. int - integers. Non-decimal values
+  2. float - floats. Decimal values
+       \item str - strings. Can be denoted by single or double quotes. For large multi-line strings one uses triple single or double quotes.
+       \item object - All objects inherit from the base 'object' class.
+       \item dict - A standard key-value data structure like a dictionary or hashmap. The keys and values do not have to be of one type. The value can be of any type but the key must be hashable (e.g. the key cannot be another dict). Unordered.
+       \item list - Similar to an arraylist in java. Similar to an array except it is not fixed size. A list can hold values of multiple types and can hold other lists.
+       \item tuple - Similar to a list and can be accessed like a list but cannot be modified (i.e. no value can be added, modified, or removed.
+       \item set - Each element can only appear once. Unordered.
+       \item function - A defined function
+       \item class - A defined class
     \end{enumerate}
 \section{Syntax}
 
@@ -332,6 +330,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg3NDY3MDkwLC0xNDgwNTg3OTEsNDE1Nj
+eyJoaXN0b3J5IjpbODkyNjkyODA0LC0xNDgwNTg3OTEsNDE1Nj
 g4Mzk5XX0=
 -->
