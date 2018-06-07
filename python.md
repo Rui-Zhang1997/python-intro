@@ -139,10 +139,8 @@ While is very similar to whiles in other languages.
 while <conditions>:
 	<code>
 ```
-\subsubsection{Notes}
-In addition, unlike other languages, for and while also take an else clause, which will execute if the loop completes. This is
-useful if one is searching for something in a list, like a name. If a name is found, then one would stop searching but if it
-is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
+### Notes
+Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not f. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
 \begin{Verbatim}[xleftmargin=0.5in]
 WITHOUT USING for...else
 
@@ -353,6 +351,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjkzMTk4MCwtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbNTA0NTcwNTUsLTE0ODA1ODc5MSw0MTU2OD
+gzOTldfQ==
 -->
