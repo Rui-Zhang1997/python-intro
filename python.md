@@ -159,7 +159,7 @@ if found == 0:
 	<name not found code>
 <other code>
 
-# WITH USING for...else
+# W
 
 for name in names:
 	if name == 'John':
@@ -175,7 +175,7 @@ Python is an object-oriented language, meaning that it supports classes. Class d
 class <class name>:
 	<functions>
     
-# IF INHERITING:
+# if inheriting from other classes
 
 class <class name>(<classes inherited from>):
 	<functions>
@@ -229,7 +229,7 @@ The value of `expression` is returned from the function (if it does not return a
 ### Comprehensions
 One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to perform an operation on a list to produce another list. For example, let us make a list of the squares of numbers from 0 to 9.
 ```c
-// IN C:
+// in C:
 
 int squares[10];
 int i;
@@ -238,7 +238,7 @@ for (i = 0; i < 10; i++) {
 }
 ```
 ```java
-// IN JAVA
+// in Java
 
 int[] squares = new int[10];
 for (int i = 0; i < 10; i++) {
@@ -246,8 +246,12 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 ```python
-# in pyt
-# IN PYTHON WITH LIST COMPREHENSIONS
+# in python without list comprehension
+squares = []
+for i in range(10):
+	squares.append(i * i)
+	
+# in python with list comprehensions
 
 squares = [i * i for i in range(10)]
 ```
@@ -352,6 +356,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY5MjAyNzc1LDMwNzAxNTY2NiwtMTQ1NT
+eyJoaXN0b3J5IjpbNjAxNDg4NDM1LDMwNzAxNTY2NiwtMTQ1NT
 YxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5OV19
 -->
