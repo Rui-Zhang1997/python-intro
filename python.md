@@ -8,17 +8,17 @@ Python has types:
 
 1. int - integers. Non-decimal values
 2. float - floats. Decimal values
-3. str - strings. Can be denoted by single or double quotes. For large multi-line strings one uses triple single or double quotes.4. object - All objects inherit from the base 'object' class.
-       \item dict - A standard key-value data structure like a dictionary or hashmap. The keys and values do not have to be of one type. The value can be of any type but the key must be hashable (e.g. the key cannot be another dict). Unordered.
-       \item list - Similar to an arraylist in java. Similar to an array except it is not fixed size. A list can hold values of multiple types and can hold other lists.
-       \item tuple - Similar to a list and can be accessed like a list but cannot be modified (i.e. no value can be added, modified, or removed.
-       \item set - Each element can only appear once. Unordered.
-       \item function - A defined function
-       \item class - A defined class
-    \end{enumerate}
-\section{Syntax}
+3. str - strings. Can be denoted by single or double quotes. For large multi-line strings one uses triple single or double quotes.
+4. object - All objects inherit from the base 'object' class.
+5. dict - A standard key-value data structure like a dictionary or hashmap. The keys and values do not have to be of one type. The value can be of any type but the key must be hashable (e.g. the key cannot be another dict). Unordered.
+6. list - Similar to an arraylist in java. Similar to an array except it is not fixed size. A list can hold values of multiple types and can hold other lists
+7. tuple - Similar to a list and can be accessed like a list but cannot be modified (i.e. no value can be added, modified, or removed.
+8. set - Each element can only appear once. Unordered.
+9. function - A defined function
+10. class - A defined class
 
-\subsection{Variables}
+# Syntax
+### Variables
 All variables are created and initialized at once, unlike in C or Java where you can do
 \begin{Verbatim}[xleftmargin=0.5in]
 	int a
@@ -329,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTQ5NzgxMSwtMTQ4MDU4NzkxLDQxNT
+eyJoaXN0b3J5IjpbMTA1NjUyNDI4MCwtMTQ4MDU4NzkxLDQxNT
 Y4ODM5OV19
 -->
