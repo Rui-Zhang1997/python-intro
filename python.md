@@ -258,22 +258,20 @@ a = [<expression w/ variable> for <variable> in <collection> if <condition>]
 #E.G.
 
 a = [i * i for i in range(10) if i % 2 == 0]
-	#^-- generate list of squares for positive numbers only
+	# ^^^ generate list of squares for positive numbers only
 ```
 One can also nest list comprehensions
-\begin{verbatim}
+```python
 sent = "This is a sentence with words"
 sent_long_words_only = [word for word in [word.lower() \
 	for word in sent.split(' ')] if len(word) > 4]
-\end{verbatim}
+```
 However, this is not only for lists. This can be used for dicts as well:
-\begin{verbatim}
+```python
 {<key>: <value> for <variables> in <collection>}
-E.G.
-
+# E.G.
 some_dict = {k: foo(k) for k in a_list}
-\end{verbatim}
-
+```
 \subsection{Useful built-in functions}
 Python provided a lot of useful built-in functions as well.
 
@@ -349,6 +347,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ2MDA4MzQsLTE0ODA1ODc5MSw0MT
-U2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMjMwMTM3ODcxLC0xNDgwNTg3OTEsNDE1Nj
+g4Mzk5XX0=
 -->
