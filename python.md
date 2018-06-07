@@ -239,27 +239,27 @@ for (int i = 0; i < 10; i++) {
 
 squares = [i * i for i in range(10)]
 ```
-While a trivial example, list comprehensions allows programmers to shrink code that would take multiple lines into a single expression. The most basic form of the list comprehension is:
-\begin{verbatim}
+While a trivial example, it is meant to demonstrate the power of comprehensions. They allow programmers to shrink code that would take multiple lines into a single expression. The most basic form of the list comprehension is:
+```python
 [<expression with variable> for <variable> in <collection>]
 
-e.g.
+#e.g.
 
 [foo(i) for i in [1, 2, 3, 4, 5]]
 
-OR
+#OR
 
 [(k,v) for k,v in dictionary.items()]
-\end{verbatim}
+```
 One can also do some basic filtering in these comprehensions
-\begin{verbatim}
+```python
 a = [<expression w/ variable> for <variable> in <collection> if <condition>]
 
-E.G.
+#E.G.
 
 a = [i * i for i in range(10) if i % 2 == 0]
-	^-- generate list of squares for positive numbers only
-\end{verbatim}
+	#^-- generate list of squares for positive numbers only
+```
 One can also nest list comprehensions
 \begin{verbatim}
 sent = "This is a sentence with words"
@@ -349,6 +349,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0ODkwNDM5NywtMTQ4MDU4NzkxLDQxNT
-Y4ODM5OV19
+eyJoaXN0b3J5IjpbLTE0NDQ2MDA4MzQsLTE0ODA1ODc5MSw0MT
+U2ODgzOTldfQ==
 -->
