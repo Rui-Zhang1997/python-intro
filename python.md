@@ -104,17 +104,18 @@ OUTPUT IS
 3
  ```
 The above assigns `<variable>` a value of an element in the list or tuple. If one also needs the index, then one would do
-```python
+
+```pyt
 for <index-variable>, <value-variable> in enumerate(<some-list-set-or-tuple>):
 	<code>
 
-E.G.
+# E.G.
 
 lst = [1, 23, 44, 3]
 for i, v in enumerate(lst):
 	print(i,v)
 
-OUTPUT IS
+# OUTPUT IS
 0 1
 1 23
 2 44
@@ -142,7 +143,7 @@ while <conditions>:
 ### Notes
 Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not found. For example, let us say we are looking for a name. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
 ```python
-#WITHOUT USING for...else
+# WITHOUT USING for...else
 found = 0
 for name in names:
 	if name == 'John':
@@ -153,7 +154,7 @@ if found == 0:
 	<name not found code>
 <other code>
 
-#WITH USING for...else
+# WITH USING for...else
 
 for name in names:
 	if name == 'John':
@@ -169,7 +170,7 @@ Python is an object-oriented language, meaning that it supports classes. Class d
 class <class name>:
 	<functions>
     
-#IF INHERITING:
+# IF INHERITING:
 
 class <class name>(<classes inherited from>):
 	<functions>
@@ -235,7 +236,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 ```python
-#IN PYTHON WITH LIST COMPREHENSIONS
+# IN PYTHON WITH LIST COMPREHENSIONS
 
 squares = [i * i for i in range(10)]
 ```
@@ -243,11 +244,11 @@ While a trivial example, it is meant to demonstrate the power of comprehensions.
 ```python
 [<expression with variable> for <variable> in <collection>]
 
-#e.g.
+# e.g.
 
 [foo(i) for i in [1, 2, 3, 4, 5]]
 
-#OR
+# OR
 
 [(k,v) for k,v in dictionary.items()]
 ```
@@ -255,7 +256,7 @@ One can also do some basic filtering in these comprehensions
 ```python
 a = [<expression w/ variable> for <variable> in <collection> if <condition>]
 
-#E.G.
+# E.G.
 
 a = [i * i for i in range(10) if i % 2 == 0]
 	# ^^^ generate list of squares for positive numbers only
@@ -347,6 +348,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwMTM3ODcxLC0xNDgwNTg3OTEsNDE1Nj
-g4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTkxMjA3MTQwNCwtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
