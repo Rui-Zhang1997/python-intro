@@ -24,18 +24,18 @@ All variables are created and initialized at once, unlike in C or Java where you
 	int a
 ```
 If a variable should not have an initial value, then one can assign it `None`.
-\section{Function}
+### Functions
 The basic syntax of a Python function follows standard function declaration formats i.e.
-\begin{Verbatim}[xleftmargin=0.5in]
+```python
 def <function name>(<parameters, if any>):
-\end{Verbatim}
+````
 followed by code. All code must be indented by one and only one indent following a function declaration. There is no return type.
 \subsection{Conditionals}
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
-for those are as follows \begin{Verbatim}[xleftmargin=0.5in]
+```python
 if (not) <condition> (and|or) <condition> .... :
-\end{Verbatim}
-Python does not use operators such as !, \&, and || to denote negation, and, or but instead uses ``not'', ``and'', ``or''. Using the
+```
+Python does not use operators such as `!`, `&`, and `||` to denote negation, and, or but instead uses ``not'', ` `or`. Using the
 symbols results in a SyntaxError. There is also another operator which is ``in'', allowing one to test for membership within a list like \begin{Verbatim}[xleftmargin=0.5in]
 'hello' in 'hello world'
 
@@ -329,6 +329,6 @@ sorted(a, reversed=True) <--- [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0NjM5NDE0LC0xNDgwNTg3OTEsNDE1Nj
-g4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTQ1NjMzMzk5OCwtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
