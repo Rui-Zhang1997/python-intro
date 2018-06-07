@@ -215,6 +215,16 @@ Java does not allow inheriting from multiple classes as that runs into the diamo
 Sometimes there is something that can be done by a function but it is a single line, or one is in a situation where there is a function that requires another function as an argument but it is only a single-line function. At this point, one would use a lambda, which can be thought of as an anonymous function:
 ```python
 lambda <variables>: <expression>
+
+# e.g.
+
+add_one = lambda v: v + 1
+c = 
+# e.g.
+
+get_remainder = lambda a, b: a % b
+
+
 ```
 The value of `expression` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
 ### Comprehensions
@@ -342,6 +352,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNTIwODI1OCwtMTQ1NTYxNjY4MiwtMT
+eyJoaXN0b3J5IjpbLTUwNjU1MDgyNSwtMTQ1NTYxNjY4MiwtMT
 Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
