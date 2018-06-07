@@ -216,7 +216,7 @@ Sometimes there is something that can be done by a function but it is a single l
 ```python
 lambda <variables>: <expression>
 ```
-The value of ` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
+The value of `expression` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
 ### Comprehensions
 One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to produce a list from a dataset. For example, let us make a list of the squares of numbers from 0 to 9.
 ```c
@@ -243,7 +243,7 @@ squares = [i * i for i in range(10)]
 ```
 While a trivial example, it is meant to demonstrate the power of comprehensions. They allow programmers to shrink code that would take multiple lines into a single expression. The most basic form of the list comprehension is:
 ```python
-[<expression with variable> for <variable> in <collection>]
+[<expression> for <variable> in <collection>]
 
 # e.g.
 
@@ -255,12 +255,16 @@ While a trivial example, it is meant to demonstrate the power of comprehensions.
 ```
 One can also do some basic filtering in these comprehensions
 ```python
-a = [<expression w/ variable> for <variable> in <collection> if <condition>]
+a = [<expression> for <variable> in <collection> if <condition>]
 
 # E.G.
 
 a = [i * i for i in range(10) if i % 2 == 0]
 	# ^^^ generate list of squares for positive numbers only
+```
+Note: one does not need to have the variable in the expression:
+```python
+[0 for i in range(10)] # makes [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 ```
 One can also nest comprehensions
 ```python
@@ -338,6 +342,6 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDIwMzIzNDYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMTAyNTIwODI1OCwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
