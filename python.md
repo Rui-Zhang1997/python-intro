@@ -305,7 +305,7 @@ filter is *lazy* as well.
 ```python
 a = [1, 11, 3, 4]
 sorted(a)
-a is now [1, 3, 4, 11]
+# a is now [1, 3, 4, 11]
 
 # WITH KEY FUNCTION
 
@@ -313,18 +313,14 @@ sorted(<collection>, <key function>)
 
 # E.G.
 a = [(3,2), (1,1), (4, -1)]
-sorted(a) <--- [(1,1), (3,2), (4,-1)]
-sorted(a, lambda k: k[1]) # Result [(4,-1), (1,1), (3,2)]
+sorted(a) # result: [(1,1), (3,2), (4,-1)]
+sorted(a, lambda k: k[1]) # result: [(4,-1), (1,1), (3,2)]
 
 # REVERSING
 a = [4, 2, 3, 1]
-sorted(a, reversed=True) #result: [4, 3, 2, 1]
+sorted(a, reversed=True) # result: [4, 3, 2, 1]
 ```
-{\bf reversed} - Reverse an existing ordered collection (like a list). However, it is also *lazy*
-
-
-
-.
+**reversed** Reverse an existing ordered collection (like a list). However, it is also *lazy*
 
 {\bf zip}
 
@@ -338,6 +334,6 @@ sorted(a, reversed=True) #result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NjE0MTA0LC0xNDgwNTg3OTEsNDE1Nj
-g4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTExMzMxNDI4NSwtMTQ4MDU4NzkxLDQxNT
+Y4ODM5OV19
 -->
