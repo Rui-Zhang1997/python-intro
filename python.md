@@ -499,10 +499,13 @@ virtualenv <virtual environment name> -p <python>
 	^^^^^^ creates a virtual environment geared the specified version of python
 	Useful for machines with multiple python installations (very common).
 # After a virtual environment has been created
-source <v
+source <venv name>/bin/activate # starts the virtual environment
+deactivate # executing inside an active virtual env will stop it
+```
+It is very common to name the virtual environment `venv`, `env`, or `ENV` but 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTEyMzc3NSw3NTM0MjU5MywtMjM2ND
-EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
-NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbLTE3MzE3MDMzMTMsNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
