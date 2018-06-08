@@ -34,6 +34,8 @@ The basic syntax of a Python function follows standard function declaration form
 def <function name>(<parameters, if any>):
 ````
 followed by code. All code must be indented by one and only one indent following a function declaration. There is no return type.
+
+Unli
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -382,10 +384,12 @@ with open('<file path>', '<permissions>') as <variable>:
 
 **super** In a class that inherits from other classes, `super()` can be used to reference the superclass.
 
+**print** Outs to standard output (usually terminal).
+
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTIzNzQ2MywxMDU5NDEzOTM2LDE3Mz
+eyJoaXN0b3J5IjpbLTI4MjY5NjU1NiwxMDU5NDEzOTM2LDE3Mz
 kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
 OTEsNDE1Njg4Mzk5XX0=
 -->
