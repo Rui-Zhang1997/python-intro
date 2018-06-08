@@ -492,9 +492,13 @@ A virtual environment is useful for isolating one particular python projects fro
 ```
 There is an \_\_init\_\_.py file in every directory that needs to act like a module. Without it, python will not see the folder as a module. By setting a virtual environment, in code.py if one can import something from the topmost app.py by just `import app` and in app.py, it can import morecode.py by `from folder1 import morecode`. Not only does it allow you to isolate different projects and their dependencies, it also changes the sys.path for you so you do not need to do it yourself. A virtual environment should always be created before a project is started or when importing a new project. It is easy, fast, and has more benefits and is considered best practice. How do you do it?
 ### virtualenv
-The Python Standard Library provides a virtualenv package which creates virtual environments. However, it must first be installed by using `pip install virtualenv` to install it globally. After it has successfully
+The Python Standard Library provides a virtualenv package which creates virtual environments. However, it must first be installed by using `pip install virtualenv` to install it globally. After it has successfully installed, one can do
+```
+virtualenv <virtual environment name> # creates a virtual environment with name
+virtualenv <virtual environment name> -p <python>
+	^^^^^^ creates a virtual environment geared the specified ve
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzODYxOTUzNiw3NTM0MjU5MywtMjM2ND
+eyJoaXN0b3J5IjpbLTQ4NjEyNDY4NCw3NTM0MjU5MywtMjM2ND
 EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
 NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
 Q4MDU4NzkxLDQxNTY4ODM5OV19
