@@ -60,7 +60,12 @@ In addition, if one has a list, passing it to a function with a `*` at the start
 a = [1,2]
 def add(a, b):
 	return a + b
-print(add(*a)) # prints 
+print(add(*a)) # prints 3
+```
+Same thing with a `dict`:
+```python
+args = {'b': 10, 'a': 20}
+def 
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -414,7 +419,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzIxODEzMywxMDU5NDEzOTM2LDE3Mz
+eyJoaXN0b3J5IjpbMTc2MzczOTg5NiwxMDU5NDEzOTM2LDE3Mz
 kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
 OTEsNDE1Njg4Mzk5XX0=
 -->
