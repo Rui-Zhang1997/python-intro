@@ -98,10 +98,10 @@ Instead, one can use a modified if else:
 
 # e.g.
 a = 10
-b = a-1 if a == 10 else a+1 # b is 9 since a == 10
+b = a-1 if a == 10 else a+1 # b is 9 since a == 10 is true
 ```
 ### Loops
-Python has loops, `while` and `for`, which has the following syntax.
+Python has loops, `while` and `for`, which have the following syntax.
 ```python
 for <variables> in <collection>:
 	<code>
@@ -112,7 +112,7 @@ while <conditions>:
 #### For Loops
 Note that the for loop is not your standard for loop, which has the form 
 ```
-for (initialization; test; increment) {
+for (initialization; test; step) {
 	<code>
 }
 ```
@@ -509,7 +509,7 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI5NzM4OTgsNzUzNDI1OTMsLTIzNj
+eyJoaXN0b3J5IjpbLTE4MjYwMTYzNDMsNzUzNDI1OTMsLTIzNj
 QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
 MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
 E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
