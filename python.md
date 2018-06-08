@@ -62,7 +62,7 @@ def add(a, b):
 	return a + b
 print(add(*a)) # prints 3
 ```
-Same thing with a `dict`, but use `**` be:
+Same thing with a `dict`, but use `**` before the `dict`:
 ```python
 args = {'b': 10, 'a': 20}
 def subtract(a, b);
@@ -424,9 +424,9 @@ with open('<file path>', '<permissions>') as <variable>:
 **print** Outs to standard output (usually terminal).
 
 ### First-class Citizens
-
+Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjcwMjMxMTIsMTA1OTQxMzkzNiwxNz
-M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
-NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbOTEyNTY2NjM3LDEwNTk0MTM5MzYsMTczOT
+E3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5
+MSw0MTU2ODgzOTldfQ==
 -->
