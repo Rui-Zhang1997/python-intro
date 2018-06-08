@@ -496,9 +496,12 @@ The Python Standard Library provides a virtualenv package which creates virtual 
 ```
 virtualenv <virtual environment name> # creates a virtual environment with name
 virtualenv <virtual environment name> -p <python>
-	^^^^^^ creates a virtual environment geared the specified ve
+	^^^^^^ creates a virtual environment geared the specified version of python
+	Useful for machines with multiple python installations (very common).
+# After a virtual environment has been created
+source <v
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NjEyNDY4NCw3NTM0MjU5MywtMjM2ND
+eyJoaXN0b3J5IjpbMTUyNTEyMzc3NSw3NTM0MjU5MywtMjM2ND
 EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
 NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
 Q4MDU4NzkxLDQxNTY4ODM5OV19
