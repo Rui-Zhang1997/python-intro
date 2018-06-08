@@ -442,7 +442,7 @@ except Exception1 e1: # catches a specific error and also allows
 	<code>
 except: # catches all errors. DO NOT DO THIS!!
 	<code>
-finally: # executes whether 
+finally: # executes whether an error occurred or not. Not necessary.
 	<code>
 ```
 ### First-class Citizens
@@ -470,8 +470,8 @@ In order to find the package, Python keeps a list of directories in which to loo
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjgxMzE0OSwtMjM2NDEyODc2LDE5Mz
-E2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkzNiwxNzM5MTc3
-NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLD
-QxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbNzUzNDI1OTMsLTIzNjQxMjg3NiwxOTMxNj
+Y0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5MzYsMTczOTE3NzQ3
+OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MT
+U2ODgzOTldfQ==
 -->
