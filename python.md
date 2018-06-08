@@ -430,6 +430,7 @@ isinstance(a, float) # false
 **int, float, bool, str** Casts to integer, float, boolean, string, respectively
 
 **print** Outs to standard output (usually terminal).
+### Error Handling
 
 ### First-class Citizens
 Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as an argument, assigned to a variable, and be modified.
@@ -456,7 +457,8 @@ In order to find the package, Python keeps a list of directories in which to loo
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMD
-U5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2
-NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTEzNzU3OTA3NDksMTkzMTY2NDQzMSwtMT
+U3MzAzODM3OSwxMDU5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1
+NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX
+0=
 -->
