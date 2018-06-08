@@ -355,7 +355,10 @@ dict(a) # {1: 2, 3: 4}
 f = open('<file path>', '<permissions>')
 f = open('<file path>', 'r') # read only
 f = open('<file path>', 'w') # write only
-f = open('<file path>', 'w+') # opens for read
+f = open('<file path>', 'w+') # opens for read and write. File
+							  # created is created if does not exist else 
+							  # it is truncated (all contents deleted)
+f 
 f.read() # gets all data from the file
 f.readline() # gets a single line from the file
 f.readlines() # gets all lines from the file and stores it into an array
@@ -369,7 +372,7 @@ f.seek(<offset>, <reference>) # goes to offset bytes from reference:
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjUwMjQ2OCwxMDU5NDEzOTM2LDE3Mz
-kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
-OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbMjQ2MDE5MjMsMTA1OTQxMzkzNiwxNzM5MT
+c3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4Nzkx
+LDQxNTY4ODM5OV19
 -->
