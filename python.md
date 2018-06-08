@@ -430,9 +430,9 @@ with open('<file path>', '<permissions>') as <variable>:
 	<code>
 # file is closed
 ```
-**dir** List all methods and attributes in a particular class or object.
+**dir** List all methods and attributes in a particular class or instance.
 
-**super** In a class that inherits from other classes, `super()` can be used to reference the superclass.
+**super** In a class that inherits from other classes, `super()` can be used to reference the superclasses.
 
 **isinstance** Checks to see if a variable is of a specific type:
 ```python
@@ -440,7 +440,7 @@ a = 1
 isinstance(a, int) # true
 isinstance(a, float) # false
 ```
-**int, float, bool, str** Casts to integer, float, boolean, string, respectively
+**int, float, bool, str** Casts to integer, float, boolean, string, respectively. Can be used on strings to convert them into integers, floats, or booleans.
 
 **print** Outs to standard output (usually terminal).
 ### Error Handling
@@ -520,8 +520,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg3MTIwMzY3LDc1MzQyNTkzLC0yMzY0MT
-I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
-LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
-gwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTEyMjYyMDExNDYsNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
