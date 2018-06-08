@@ -371,12 +371,12 @@ f.seek(<offset>, <reference>) # goes to offset bytes from reference:
 							  # 2 - end of file
 f.close() # closes the object
 ```
-Keeping the file open (i.e. `not calling f.close()`) is not a good idea and on some systems 
+Keeping the file open (i.e. `not calling f.close()`) is not a good idea and, depending on the system, the file may not be released. However, sometimes one might forgot,
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1NjM5MTk2LDEwNTk0MTM5MzYsMTczOT
-E3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5
-MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMjAwOTk4NzMwNSwxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
