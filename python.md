@@ -327,9 +327,14 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 **zip** Occasionally, one may receive two or more lists or tuples and we wish to associate all the first elements, the second elements, etc. (for example, if given a list of account holders and checkings and savings accounts), we could use a for-loop
 ```python
-accounts = [...list of names...]
-checkings = [...
-
+account_holders = [...list of names...]
+checkings = [...values...]
+savings = [...values...]
+accounts = []
+for i in range(len(accounts)):
+	accounts.append((account_holders[i], savings[i], checkings[i]))
+```
+This way work
 {\bf len}
 
 {\bf dict, list, tuple, set}
@@ -340,7 +345,7 @@ checkings = [...
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODEwNDEyNywxNzM5MTc3NDc5LDMwNz
-AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
-OV19
+eyJoaXN0b3J5IjpbMzYwNjk5OTcxLDE3MzkxNzc0NzksMzA3MD
+E1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5
+XX0=
 -->
