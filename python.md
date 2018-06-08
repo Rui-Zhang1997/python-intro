@@ -204,16 +204,23 @@ else:
 	<name not found code>
 <other code>
 ```
-This allows for clean
+This allows for cleaner and more concise code.
 ### Classes
 Python is an object-oriented language, meaning that it supports classes. Class declarations are as follows:
 ```python
 class <class name>:
+	<attributes>
 	<functions>
     
 # if inheriting from other classes
 class <class name>(<classes inherited from>):
+	<attributes>
 	<functions>
+
+# e.g.
+
+class A:
+	
 ```
 The constructor for a class is a special function called the \_\_init\_\_ function, which is empty by default.
 
@@ -510,8 +517,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDE0NTYwOSw3NTM0MjU5MywtMjM2ND
-EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
-NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbLTE3NDc1MDY0OTksNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
