@@ -54,7 +54,13 @@ foo(1, 2, 3, 4) # prints (1, 2, 3, 4)
 def foo(**kwargs):
 	print(kwargs)
 foo(a=1, b=2) # prints {'a': 1, 'b': 2}
-
+```
+In addition, if one has a list, passing it to a function with a `*` at the start will apply each element as an individual argument:
+```python
+a = [1,2]
+def add(a, b):
+	return a + b
+print(add(*a)) # prints 
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -408,7 +414,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjg5MzQ4MzYsMTA1OTQxMzkzNiwxNz
-M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
-NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbMTgxMzIxODEzMywxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
