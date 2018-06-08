@@ -437,7 +437,7 @@ try:
 	<code>
 except Exception1, Exception2, ...:
 	<code>
-except Exception1 e1, Exception2 e2, ...:
+except Exception1 e1, E
 ### First-class Citizens
 Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as an argument, assigned to a variable, and be modified.
 ```python
@@ -463,8 +463,7 @@ In order to find the package, Python keeps a list of directories in which to loo
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTExMjU3MjgsMTkzMTY2NDQzMSwtMT
-U3MzAzODM3OSwxMDU5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1
-NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX
-0=
+eyJoaXN0b3J5IjpbNDE0Njc3MDYxLDE5MzE2NjQ0MzEsLTE1Nz
+MwMzgzNzksMTA1OTQxMzkzNiwxNzM5MTc3NDc5LDMwNzAxNTY2
+NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5OV19
 -->
