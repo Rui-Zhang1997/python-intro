@@ -502,10 +502,10 @@ virtualenv <virtual environment name> -p <python>
 source <venv name>/bin/activate # starts the virtual environment
 deactivate # executing inside an active virtual env will stop it
 ```
-It is very common to name the virtual environment `venv`, `env`, or `ENV` but 
+It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzE3MDMzMTMsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbNzkwOTcxODU1LDc1MzQyNTkzLC0yMzY0MT
+I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
+LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
