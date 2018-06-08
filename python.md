@@ -427,7 +427,7 @@ a = 1
 isinstance(a, int) # true
 isinstance(a, float) # false
 ```
-**int, float, str, re
+**int, float, bool, str** Casts to integer, float, boolean, string, respectively
 
 **print** Outs to standard output (usually terminal).
 
@@ -442,8 +442,10 @@ def greeting(greet, name):
 
 greeting(hello, 'dude') # prints 'hello dude'
 ```
+
+## Modules
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQyMTI5MjIsMTA1OTQxMzkzNiwxNz
-M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
-NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbMTUzMTk4MDQ1NSwxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
