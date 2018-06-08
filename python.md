@@ -469,10 +469,11 @@ In order to find the package, Python keeps a list of directories in which to loo
 ### Installing Modules
 Python, like Java, Javascript, Swift, etc., has its own package manager called `pip`. Here are some basic actions one can do with pip
 ```
-pip install package
-pip install --upgrade package
-pip uninstall package
-pip freeze > pip.f
+pip install package # installs a package
+pip install --upgrade package # upgrades a package
+pip uninstall package # removes a package
+pip freeze > pip.req # pipes all packages and versions in the environment
+or the machine (if not in a virtual environment) to a file called pip.req
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
 A virtual environment is useful for isolating one particular python projects from others and the python environment on the machine as a whole. This allows for every single Python project to have its own versions of packages, this way ensuring there are no situations where two python projects require two incompatible versions of a package and prevents an unintentional upgrade. It also allows for one to import custom modules without modifying the `sys.path`. This is achieved by the virtual environment having its own installation directory. Take the following folder structure as an example:
@@ -487,8 +488,8 @@ A virtual environment is useful for isolating one particular python projects fro
 ```
 There is an \_\_init\_\_.py file in every directory that needs to act like a module. Without it, python will not see the folder as a module. By setting a virtual environment, in code.py if one can import something from the topmost app.py by just `import app` and in app.py, it can import morecode.py by `from folder1 import morecode`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzI5NTM3NTgsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbNzg2NjQxNzQ3LDc1MzQyNTkzLC0yMzY0MT
+I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
+LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
