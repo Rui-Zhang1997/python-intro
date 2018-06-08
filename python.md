@@ -350,13 +350,13 @@ dict(a) # {1: 2, 3: 4}
 ```
 `list` Can be used to convert any of the listed collections and any lazy function into a list. If applied to a dictionary, then it will only use the keys. For both (key, value), use `list(d.items())` where `d` is a dictionary.
 `tuple` will also do the same as list but will turn it into a tuple.
-**open** Used to open a file. This returns a f
+**open** Used to open a file. This returns an `io.TextWrapper` object
 
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODE3NjQzMCwxNzM5MTc3NDc5LDMwNz
-AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
-OV19
+eyJoaXN0b3J5IjpbLTE2NTg5NjE3MzUsMTczOTE3NzQ3OSwzMD
+cwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgz
+OTldfQ==
 -->
