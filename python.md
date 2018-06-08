@@ -325,7 +325,7 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 ```
 **reversed** Reverse an existing ordered collection (like a list). However, it is also *lazy*
 
-**zip** Occasionally, one may receive two or more lists or tuples and we wish to associate the elements
+**zip** Occasionally, one may receive two or more lists or tuples and we wish to associate all the first elements, the second elements, etc. 
 
 {\bf len}
 
@@ -337,7 +337,7 @@ sorted(a, reversed=True) # result: [4, 3, 2, 1]
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTc1MjU4LDE3MzkxNzc0NzksMzA3MD
-E1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5
-XX0=
+eyJoaXN0b3J5IjpbLTEwODY0NTY3MSwxNzM5MTc3NDc5LDMwNz
+AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
+OV19
 -->
