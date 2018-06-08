@@ -427,12 +427,14 @@ with open('<file path>', '<permissions>') as <variable>:
 Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as an argument, assigned to a variable, and be modified.
 ```
 def hello():
-	print('hello')
+	return 'hello'
 
 def greeting(greet, name):
-	g
+	print(greet(), name)
+
+greeting(hello, 'dude') # prints
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMjc0Nzc1LDEwNTk0MTM5MzYsMTczOT
-E3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5
-MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMTE2ODY5MTA2MCwxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
