@@ -200,7 +200,7 @@ class A:
 a = A(10) # initializes variable `a` to equal an instance of class A where
 		  # a.value is 110
 ```
-Please note that Python has no concept of public, private, or protected methods and attributes.
+Please note that Python has no concept of public, private, or protected methods and attributes. That is because Python operates under the idea that "we are all consenting adults". This means that whoever is using a class knows what they are doing and therefore nothing i
 ### Notes
 Java does not allow inheriting from multiple classes as that runs into the diamond problem, which is if a class C inherits from classes A and B and they each have a foo() function inside with the same method signature, which one do you run? Python solves this by using the order of inheritance so if one did class C(A,B) it would check A for foo() then B for foo().
 
@@ -385,7 +385,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMwNzg0ODYsMTA1OTQxMzkzNiwxNz
-M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
-NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbMTEzNTgxMjY5NSwxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
