@@ -231,7 +231,7 @@ All instance functions are defined as follows:
 def <function name>(<self-reference-parameter>, <parameters>):
 	<code>
 ```
-The first parameter of an instance function is the *self parameter*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). When doing a call to an instance method, the instance itself is implicitly passed as the firstIf one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line above, e.g.
+The first parameter of an instance function is the *self parameter*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). When doing a call to an instance method, the instance itself is implicitly passed as the first argument so there is no need to do something like `a.foo(a, 1, 2, 3)`. If one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line above, e.g.
 ```python
 @classmethod
 def <function-name>(<parameters>):
@@ -249,10 +249,10 @@ class A:
         return self.value
         
 a = A(10) # initializes variable `a` to equal an instance of class A where
-		  # a.value is 110
+		  # a.value is 10
 ```
-Please note that Python has no concept of public, private, or protected methods and attributes. That is because Python operates under the idea that "we are all consenting adults". This means that whoever is using a class knows what they are doing and therefore nothing is hidden and any misuse of the attributes or functions is the fault of the client code. Typically, any function starting with an underscore is a function that is not usually called or should not be called.
-### Notes
+Please note that Python has no concept of public, private, or protected methods and attributes. That is because Python operates under the idea that "we are all consenting adults". This means that whoever is using a class knows what they are doing and therefore nothing is hidden. Any misuse of the attributes or functions is the fault of the client code. Typically, any function starting with an underscore is a function that is not usually called or should not be called.
+### Diamond Problem
 Java does not allow inheriting from multiple classes as that runs into the diamond problem, which is if a class C inherits from classes A and B and they each have a foo() function inside with the same method signature, which one do you run? Python solves this by using the order of inheritance so if one did class C(A,B) it would check A for foo() then B for foo().
 
 # Programming Constructs
@@ -519,8 +519,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEyMzY1MTAxLDc1MzQyNTkzLC0yMzY0MT
-I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
-LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
-gwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTM5MDk5NTk1Myw3NTM0MjU5MywtMjM2ND
+EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
+NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
