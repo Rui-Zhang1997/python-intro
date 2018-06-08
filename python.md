@@ -444,14 +444,16 @@ greeting(hello, 'dude') # prints 'hello dude'
 ```
 
 # Modules
-Every (useful) language has a module management system. In C, it is through the use of `#include` and header files. Java through packages and `import` statements. In Python, it is very similar to Java but we just call packages modules. There are three forms of the import statemenet:
+Every (useful) language has a module management system. In C, it is through the use of `#include` and header files. Java through packages and `import` statements. In Python, it is very similar to Java but we just call packages modules. There are three four of the import statement:
 ```python
 import package1, package2, ...
 import package as alias
 from package import package_items
 from package import package_item as alias
+```
+In order to find the package, Python keeps a list of directories in which to look for each module, accessible through the `sys.path` attribute.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjIzMjM1NSwtMTU3MzAzODM3OSwxMD
+eyJoaXN0b3J5IjpbLTYxMTM5NzA4MiwtMTU3MzAzODM3OSwxMD
 U5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2
 NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
