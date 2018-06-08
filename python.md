@@ -334,7 +334,7 @@ some_dict = {k: foo(k) for k in a_list}
 ### Built-in Functions
 Python provided a lot of useful built-in functions as well.
 
-**map** The `map` function is very useful in taking a collection and apply a given function to it. This is very similar to a list comprehension with the difference being that map is *lazy* unlike comprehensions which are *eager.*. All lazy functions will be able to be iterated over like with a for. Sometimes, we might not need an entire list at once but small chunks or even a single element of it, do some work on it, and go on to the next small segment. With a list comprehension, all the data is always stored in memory which, if we are dealing with a lot of data, may not be the best thing for us to do. With a map, only when we need that particular segment of the list is the data actually processed. For example, if we have a list of names and want to pull the accounts associated with the names and send some notices, if there is a lot of data per individual then it would be very expensive memory-wise to store all of that in a list. Instead, with a map, we can pull data for a single name, process it, and then go on to the next one, which allows us to save space as we are storing a single user's data at a time. This also comes with the drawback that we cannot reference a previous value in the map as it can be thought of as removed from memory. However, if one uses a map and then wants to convert it to a list, then one can just apply the `list()` function to the map and it will generate the list. It is defined as follows:
+**map** The `map` function is very useful in taking a collection and apply a given function to it. This is very similar to a list comprehension with the difference being that map is *lazy* unlike comprehensions which are *eager.*. All lazy functions will be able to be iterated over like with a for-loop or with a comprehension but it cannot be subscriptable i.e. it does not allow random access, only sequential access. Sometimes, we might not need an entire list at once but small chunks or even a single element of it, do some work on it, and go on to the next small segment. With a list comprehension, all the data is always stored in memory which, if we are dealing with a lot of data, may not be the best thing for us to do as it will take up a lot of memory. With a map, only when we need that particular segment of the list is the data actually processed. For example, if we have a list of names and want to pull the accounts associated with the names and send some notices, if there is a lot of data per individual then it would be very expensive memory-wise to store all of that in a list. Instead, with a map, we can pull data for a single name, process it, and then go on to the next one, which allows us to save space as we are storing a single user's data at a time. This also comes with the drawback that we cannot reference a previous value in the map as it can be thought of as removed from memory. However, if one uses a map and then wants to convert it to a list, then one can just apply the `list()` function to the map and it will generate the list. It is defined as follows:
 ```python
 map(<function name or lambda>, collection)
 
@@ -519,8 +519,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3OTQ2MjA4LDc1MzQyNTkzLC0yMzY0MT
-I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
-LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
-gwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTQ4OTUxMDg1Nyw3NTM0MjU5MywtMjM2ND
+EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
+NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
