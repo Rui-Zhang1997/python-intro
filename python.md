@@ -348,15 +348,15 @@ accounts = list(zip(account_holders, savings, checkings)) # lazy -> eager
 a = [(1,2), (3,4)]
 dict(a) # {1: 2, 3: 4}
 ```
-`list` can be used to convert any of the listed collections and any lazy function into a list. If applied to a dictionary, then it will only use the keys. For both (key, value), use `list(d.items())` where `d` is a dictionary.
+`list` Can be used to convert any of the listed collections and any lazy function into a list. If applied to a dictionary, then it will only use the keys. For both (key, value), use `list(d.items())` where `d` is a dictionary.
 `tuple` will also do the same as list but will turn it into a tuple.
-`
+**open** Used to open a file. This returns a f
 
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MTY5OTQ3OSwxNzM5MTc3NDc5LDMwNz
+eyJoaXN0b3J5IjpbLTk3ODE3NjQzMCwxNzM5MTc3NDc5LDMwNz
 AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
 OV19
 -->
