@@ -339,11 +339,11 @@ This way works, but we can also do the last three lines in a single line:
 account_holders = [...list of names...]
 checkings = [...values...]
 savings = [...values...]
-accounts = list(zip(account_holders, savings, checkings)
+accounts = list(zip(account_holders, savings, checkings)) # lazy -> eager
 ```
-{\bf len}
+**len** Gets the length of a collection
 
-{\bf dict, list, tuple, set}
+{\bf dict, list, tuple, set**
 
 {\bf open}
 
@@ -351,7 +351,7 @@ accounts = list(zip(account_holders, savings, checkings)
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzczODkyNjAsMTczOTE3NzQ3OSwzMD
-cwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgz
-OTldfQ==
+eyJoaXN0b3J5IjpbLTUxNzEwMzc4OCwxNzM5MTc3NDc5LDMwNz
+AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
+OV19
 -->
