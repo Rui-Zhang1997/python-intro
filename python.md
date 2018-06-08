@@ -45,7 +45,7 @@ def foo(a, b, c=1):
 	<code>
 ```
 #### varargs
-Python supports for multiple arguments and 
+Python supports for multiple arguments and variable keyword arguments. To do t
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -399,7 +399,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MTMzMzM1NCwxMDU5NDEzOTM2LDE3Mz
+eyJoaXN0b3J5IjpbMTEwNzkyMjQxMSwxMDU5NDEzOTM2LDE3Mz
 kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
 OTEsNDE1Njg4Mzk5XX0=
 -->
