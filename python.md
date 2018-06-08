@@ -431,7 +431,13 @@ isinstance(a, float) # false
 
 **print** Outs to standard output (usually terminal).
 ### Error Handling
-Just like most other modern languages, Python is equipped with handling exceptions. To do so, one uses the `try...catch...finally...` structure. 
+Just like most other modern languages, Python is equipped with handling exceptions. To do so, one uses the `try...catch...finally...` structure:
+```python
+try:
+	<code>
+except Exception1, Exception2, ...:
+	<code>
+except Exception1 e1, Exception2 e2, ...:
 ### First-class Citizens
 Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as an argument, assigned to a variable, and be modified.
 ```python
@@ -457,8 +463,8 @@ In order to find the package, Python keeps a list of directories in which to loo
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDUyNDU3OCwxOTMxNjY0NDMxLC0xNT
-czMDM4Mzc5LDEwNTk0MTM5MzYsMTczOTE3NzQ3OSwzMDcwMTU2
-NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ
-==
+eyJoaXN0b3J5IjpbLTEwOTExMjU3MjgsMTkzMTY2NDQzMSwtMT
+U3MzAzODM3OSwxMDU5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1
+NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX
+0=
 -->
