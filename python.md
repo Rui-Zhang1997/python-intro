@@ -29,7 +29,7 @@ In Python, one must do
 ```
 If a variable should not have an initial value, then one can assign it `None`.
 ### Functions
-The basic syntax of a Python function follows standard function declaration formats i.e.
+The basic syntax of a Python function follows standard function declaration formats and has no surprises i.e.
 ```python
 def <function name>(<parameters, if any>):
 ````
@@ -507,8 +507,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjA3OTEyMTgsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbLTgyNzY4ODUwMiw3NTM0MjU5MywtMjM2ND
+EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
+NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
