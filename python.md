@@ -200,6 +200,7 @@ class A:
 a = A(10) # initializes variable `a` to equal an instance of class A where
 		  # a.value is 110
 ```
+Please note that Python has no concept of public, private, or protected methods and attributes.
 ### Notes
 Java does not allow inheriting from multiple classes as that runs into the diamond problem, which is if a class C inherits from classes A and B and they each have a foo() function inside with the same method signature, which one do you run? Python solves this by using the order of inheritance so if one did class C(A,B) it would check A for foo() then B for foo().
 
@@ -380,8 +381,11 @@ with open('<file path>', '<permissions>') as <variable>:
 **dir** List all methods and attributes in a particular class or object.
 
 **super** In a class that inherits from other classes, `super()` can be used to reference the superclass.
+
+### First-class Citizens
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE0ODA0NDEsMTA1OTQxMzkzNiwxNz
+eyJoaXN0b3J5IjpbLTIwNTMwNzg0ODYsMTA1OTQxMzkzNiwxNz
 M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
 NzkxLDQxNTY4ODM5OV19
 -->
