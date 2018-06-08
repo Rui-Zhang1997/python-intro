@@ -454,9 +454,9 @@ from package import package_item as alias
 In order to find the package, Python keeps a list of directories in which to look for each module, accessible through the `sys.path` attribute.
 
 ### Custom Modules
-Obviously, there has to be a way to access custom modules. 
+Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjI2NDM4LC0xNTczMDM4Mzc5LDEwNT
-k0MTM5MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2
-ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMD
+U5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2
+NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
