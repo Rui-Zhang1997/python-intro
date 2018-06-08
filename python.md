@@ -472,10 +472,16 @@ Obviously, there has to be a way to access custom modules, such as those in the 
 A virtual environment is useful for isolating one particular python projects from others and the python environment on the machine as a whole. This allows for every single Python project to have its own versions of packages, this way ensuring there are no situations where two python projects require two incompatible versions of a package and also allows for one to import custom modules without modifying the `sys.path`. Take the following folder structure as an example:
 ```
 .project-root
-	
+	app.py
+	code.py
+	folder1
+		code.py
+		morecode.py
+		__init__.py
 ```
+There is an \_\_init\_\_.py file in every directory that needs to act like a module. Without it,p
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzAyNzk1MTksNzUzNDI1OTMsLTIzNj
+eyJoaXN0b3J5IjpbLTExNTYyMzQ4MDEsNzUzNDI1OTMsLTIzNj
 QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
 MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
 E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
