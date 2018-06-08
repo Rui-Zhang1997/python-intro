@@ -359,8 +359,8 @@ f = open('<file path>', 'w+') # opens for read and write. File
 							  # created is created if does not exist else 
 							  # it is truncated (all contents deleted)
 f = open('<file path>', 'r+') # open for read and write and move cursor to start
-f = open('<file path>', 'a') # open for writing, moves cursor to end of file
-f = open('<file path>', 'a+') # open for rea
+f = open('<file path>', 'a') # open for writing, moves cursor to EOF
+f = open('<file path>', 'a+') # open for read and write, move cursor to EOF
 f.read() # gets all data from the file
 f.readline() # gets a single line from the file
 f.readlines() # gets all lines from the file and stores it into an array
@@ -369,12 +369,13 @@ f.seek(<offset>, <reference>) # goes to offset bytes from reference:
 							  # 0 - start of file
 							  # 1 - current position
 							  # 2 - end of file
-
+f.close() # closes the object
+```
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg0MDA5NDYsMTA1OTQxMzkzNiwxNz
-M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
-NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbMjAwNjIzODQzNywxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
