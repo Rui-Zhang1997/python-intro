@@ -377,11 +377,11 @@ with open('<file path>', '<permissions>') as <variable>:
 	<code>
 # file is closed
 ```
-**dir** List in 
+**dir** List all methods and attributes in a particular class or object.
 
-{\bf super}
+**super** In a 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjM3MTA3LDEwNTk0MTM5MzYsMTczOT
-E3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5
-MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMTk3MTcwMTQ1MiwxMDU5NDEzOTM2LDE3Mz
+kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
+OTEsNDE1Njg4Mzk5XX0=
 -->
