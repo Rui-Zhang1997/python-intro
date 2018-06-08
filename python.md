@@ -45,7 +45,16 @@ def foo(a, b, c=1):
 	<code>
 ```
 #### varargs
-Python supports for multiple arguments and variable keyword arguments. To do this, attach `*` to the beginning of a variable makes it accept a variable number of arguments and  attaching `**` will allow for a variable numb
+Python supports for multiple arguments and variable keyword arguments. To do this, attach `*` to the beginning of a variable makes it accept a variable number of arguments and  attaching `**` will allow for a variable number of keyworded arguments:
+```python
+def foo(*args):
+	print(args)
+foo(1, 2, 3, 4) # prints (1, 2, 3, 4)
+
+def foo(**kwargs):
+	print(kwargs)
+foo(a=1, b=2) # prints {'a': 1, 'b': 2}
+
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -399,7 +408,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNDkzMDY1MSwxMDU5NDEzOTM2LDE3Mz
-kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
-OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTE0Mjg5MzQ4MzYsMTA1OTQxMzkzNiwxNz
+M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
+NzkxLDQxNTY4ODM5OV19
 -->
