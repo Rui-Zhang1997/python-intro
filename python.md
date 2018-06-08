@@ -269,9 +269,9 @@ c = add_one(10) # c == 11
 get_remainder = lambda a, b: a % b
 c = get_remainder(5, 3) # c == 2
 ```
-The value of `expression` is returned from the function (if it does not return anything, for example if it is a print statement, it returns None). Lambdas can also be assigned to variables as well.
+The value of `expression` is returned from the function (if it does not return anything, for example if it is a print statement, it returns `None`). Lambdas can also be assigned to variables as well.
 ### Comprehensions
-One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to perform an operation on a list to produce another list. For example, let us make a list of the squares of numbers from 0 to 9.
+One of Python's most powerful tools is its ability to perform comprehensions. These are very useful when one wishes to perform an operation on a list to produce another list. For example, let us make a list of the squares of numbers from 0 to 9, inclusive.
 ```c
 // in C:
 int squares[10];
@@ -519,8 +519,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjA2OTgyNzYsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMTAxMTk1MDE3NCw3NTM0MjU5MywtMjM2ND
+EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
+NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
