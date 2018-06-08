@@ -469,10 +469,10 @@ In order to find the package, Python keeps a list of directories in which to loo
 
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
-A virtual environment is 
+A virtual environment is useful for isolating one particular python projects from others and the python environment o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzc3MTIxNiw3NTM0MjU5MywtMjM2ND
-EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
-NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbOTc3ODc2NTY5LDc1MzQyNTkzLC0yMzY0MT
+I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
+LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
