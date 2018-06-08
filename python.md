@@ -348,14 +348,15 @@ accounts = list(zip(account_holders, savings, checkings)) # lazy -> eager
 a = [(1,2), (3,4)]
 dict(a) # {1: 2, 3: 4}
 ```
-`list` can be used to convert any of ht
+`list` can be used to convert any of the listed collections and any lazy function into a list.
+`tuple` will also act like list
 {\bf open}
 
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5OTYxMzcxLDE3MzkxNzc0NzksMzA3MD
-E1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5
-XX0=
+eyJoaXN0b3J5IjpbLTc3NTMyNTk4MCwxNzM5MTc3NDc5LDMwNz
+AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
+OV19
 -->
