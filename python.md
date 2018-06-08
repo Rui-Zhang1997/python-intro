@@ -375,7 +375,7 @@ sorted(a, lambda k: k[1]) # result: [(4,-1), (1,1), (3,2)]
 a = [4, 2, 3, 1]
 sorted(a, reversed=True) # result: [4, 3, 2, 1]
 ```
-**reversed** Reverse an existing ordered collection (like a list). However, it is also *lazy*
+**reversed** Reverse an existing ordered collection (like a list). However, it is also *lazy*.
 
 **zip** Occasionally, one may receive two or more lists or tuples and we wish to associate all the first elements, the second elements, etc. (for example, if given a list of account holders and checkings and savings accounts), we could use a for-loop
 ```python
@@ -400,8 +400,7 @@ accounts = list(zip(account_holders, savings, checkings)) # lazy -> eager
 a = [(1,2), (3,4)]
 dict(a) # {1: 2, 3: 4}
 ```
-`list` Can be used to convert any of the listed collections and any lazy function into a list. If applied to a dictionary, then it will only use the keys. For both (key, value), use `list(d.items())` where `d` is a dictionary.
-`tuple` will also do the same as list but will turn it into a tuple.
+`list` Can be used to convert any of the listed collections and any lazy function into a list. If applied to a dictionary, then it will only use the keys. For both (key, value), use `list(d.items())` where `d` is a dictionary. `tuple` will also do the same as list but will turn it into a tuple.
 **open** Used to open a file. This returns an `io.TextWrapper` object, which can be used to read the contents of the file.
 ```python
 f = open('<file path>', '<permissions>')
@@ -519,8 +518,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMDY0ODAsNzUzNDI1OTMsLTIzNjQxMj
-g3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5MzYs
-MTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0OD
-A1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbLTIwMTUyNjk4NTgsNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
