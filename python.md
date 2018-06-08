@@ -379,9 +379,9 @@ with open('<file path>', '<permissions>') as <variable>:
 ```
 **dir** List all methods and attributes in a particular class or object.
 
-**super** In a 
+**super** In a class that inherits from other classes, `super()` can be used to reference the superclass.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTcwMTQ1MiwxMDU5NDEzOTM2LDE3Mz
-kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
-OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTE5OTE0ODA0NDEsMTA1OTQxMzkzNiwxNz
+M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
+NzkxLDQxNTY4ODM5OV19
 -->
