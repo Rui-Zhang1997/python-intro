@@ -443,9 +443,10 @@ def greeting(greet, name):
 greeting(hello, 'dude') # prints 'hello dude'
 ```
 
-## Modules
+# Modules
+Every (useful) language has a module management system
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTk4MDQ1NSwxMDU5NDEzOTM2LDE3Mz
-kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
-OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbLTE1NzMwMzgzNzksMTA1OTQxMzkzNiwxNz
+M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
+NzkxLDQxNTY4ODM5OV19
 -->
