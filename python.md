@@ -424,9 +424,15 @@ with open('<file path>', '<permissions>') as <variable>:
 **print** Outs to standard output (usually terminal).
 
 ### First-class Citizens
-Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as a
+Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as an argument, assigned to a variable, and be modified.
+```
+def hello():
+	print('hello')
+
+def greeting(greet, name):
+	g
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTEyNTY2NjM3LDEwNTk0MTM5MzYsMTczOT
+eyJoaXN0b3J5IjpbOTUyMjc0Nzc1LDEwNTk0MTM5MzYsMTczOT
 E3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5
 MSw0MTU2ODgzOTldfQ==
 -->
