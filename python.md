@@ -466,10 +466,11 @@ from package import package_items
 from package import package_item as alias
 ```
 In order to find the package, Python keeps a list of directories in which to look for each module, accessible through the `sys.path` attribute.
-
+### Installing Modules
+Python, like 
 ### Custom Modules
 Obviously, there has to be a way to access custom modules, such as those in the current project directory. In order to do so, there are a few ways. The first, not recommended way, is to append the path to the project root to sys.path at the start of the program. The second way is through the use of a **virtual environment**.
-A virtual environment is useful for isolating one particular python projects from others and the python environment on the machine as a whole. This allows for every single Python project to have its own versions of packages, this way ensuring there are no situations where two python projects require two incompatible versions of a package and prevents an uninte and also allows for one to import custom modules without modifying the `sys.path`. Take the following folder structure as an example:
+A virtual environment is useful for isolating one particular python projects from others and the python environment on the machine as a whole. This allows for every single Python project to have its own versions of packages, this way ensuring there are no situations where two python projects require two incompatible versions of a package and prevents an unintentional upgrade. It also allows for one to import custom modules without modifying the `sys.path`. This is achieved by the virtual environment having its own installation directory. Take the following folder structure as an example:
 ```
 .project-root
 	app.py
@@ -481,8 +482,8 @@ A virtual environment is useful for isolating one particular python projects fro
 ```
 There is an \_\_init\_\_.py file in every directory that needs to act like a module. Without it, python will not see the folder as a module. By setting a virtual environment, in code.py if one can import something from the topmost app.py by just `import app` and in app.py, it can import morecode.py by `from folder1 import morecode`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzU1OTY5MCw3NTM0MjU5MywtMjM2ND
-EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
-NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbLTIxMDI2MzA5MzIsNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
