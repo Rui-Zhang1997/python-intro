@@ -62,7 +62,7 @@ def add(a, b):
 	return a + b
 print(add(*a)) # prints 3
 ```
-Same thing with a `dict`:
+Same thing with a `dict`, but use `**` be:
 ```python
 args = {'b': 10, 'a': 20}
 def subtract(a, b);
@@ -426,7 +426,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTE2MDQxLDEwNTk0MTM5MzYsMTczOT
-E3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5
-MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbLTE0MjcwMjMxMTIsMTA1OTQxMzkzNiwxNz
+M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
+NzkxLDQxNTY4ODM5OV19
 -->
