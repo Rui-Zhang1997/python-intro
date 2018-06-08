@@ -444,9 +444,9 @@ greeting(hello, 'dude') # prints 'hello dude'
 ```
 
 # Modules
-Every (useful) language has a module management system
+Every (useful) language has a module management system. In C, it is through the use of `#include` and header files. Java through packages and `import` statements. In Python, it is very similar to Java but we just call packages modules. There are three forms of the import s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMwMzgzNzksMTA1OTQxMzkzNiwxNz
-M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
-NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbLTE3MDIwMjA0ODYsLTE1NzMwMzgzNzksMT
+A1OTQxMzkzNiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYx
+NjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5OV19
 -->
