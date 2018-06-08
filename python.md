@@ -354,13 +354,15 @@ dict(a) # {1: 2, 3: 4}
 ```python
 f = open('<file path>')
 f.read() # gets all data from the file
-f.readline() # gets a single line from
+f.readline() # gets a single line from the file
+f.readlines() # gets all lines from the file and stores it into an array
+			  # where each element is a line
 
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyNzk5MTQ2LDE3MzkxNzc0NzksMzA3MD
-E1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5
-XX0=
+eyJoaXN0b3J5IjpbMTA1OTQxMzkzNiwxNzM5MTc3NDc5LDMwNz
+AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
+OV19
 -->
