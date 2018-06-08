@@ -421,20 +421,25 @@ with open('<file path>', '<permissions>') as <variable>:
 
 **super** In a class that inherits from other classes, `super()` can be used to reference the superclass.
 
+**isinstance** Checks to see if a variable is of a specific type:
+```python
+
+
 **print** Outs to standard output (usually terminal).
 
 ### First-class Citizens
 Everything in Python is treated as a first-class citizen, meaning that what you do with one type you can do with any type, i.e. passed as an argument, assigned to a variable, and be modified.
-```
+```python
 def hello():
 	return 'hello'
 
 def greeting(greet, name):
 	print(greet(), name)
 
-greeting(hello, 'dude') # prints
+greeting(hello, 'dude') # prints 'hello dude'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODY5MTA2MCwxMDU5NDEzOTM2LDE3Mz
+eyJoaXN0b3J5IjpbMTQ5MDUyNzkxMCwxMDU5NDEzOTM2LDE3Mz
 kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
 OTEsNDE1Njg4Mzk5XX0=
 -->
