@@ -404,6 +404,8 @@ dict(a) # {1: 2, 3: 4}
 **open** Used to open a file. This returns an `io.TextWrapper` object, which can be used to read the contents of the file.
 ```python
 f = open('<file path>', '<permissions>')
+# adding a 'b' after the first letter to any of the permission below puts it
+# into binary mode
 f = open('<file path>', 'r') # read only
 f = open('<file path>', 'w') # write only
 f = open('<file path>', 'w+') # opens for read and write. File
@@ -422,7 +424,7 @@ f.seek(<offset>, <reference>) # goes to offset bytes from reference:
 							  # 2 - end of file
 f.close() # closes the object
 ```
-Keeping the file open (i.e. `not calling f.close()`) is not a good idea and, depending on the system, the file may not be released. However, sometimes one might forgot, so to prevent it, one can use the `with...as...` construct:
+Keeping the file open (i.e. `not calling f.close()`) after you are done with it is not a good idea and, depending on the system, the file may not be released. However, sometimes one might forgot, so to prevent it, one can use the `with...as...` construct:
 ```python
 with open('<file path>', '<permissions>') as <variable>:
 	<code>
@@ -518,8 +520,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTUyNjk4NTgsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbNTg3MTIwMzY3LDc1MzQyNTkzLC0yMzY0MT
+I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
+LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
