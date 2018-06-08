@@ -343,7 +343,7 @@ accounts = list(zip(account_holders, savings, checkings)) # lazy -> eager
 ```
 **len** Gets the length of a collection
 
-{\bf dict, list, tuple, set**
+**dict, list, tuple, set** Can be used to convert from on
 
 {\bf open}
 
@@ -351,7 +351,7 @@ accounts = list(zip(account_holders, savings, checkings)) # lazy -> eager
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzEwMzc4OCwxNzM5MTc3NDc5LDMwNz
+eyJoaXN0b3J5IjpbMTgwMDQ5MDc1OCwxNzM5MTc3NDc5LDMwNz
 AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
 OV19
 -->
