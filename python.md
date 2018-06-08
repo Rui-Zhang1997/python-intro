@@ -175,7 +175,7 @@ for <key>, <value> in <some-dict>.items():
 	<code>
  ```
 Will assign key to the first variable and the value to the second.
-### While
+### while
 While is very similar to whiles in other languages.
 ```python
 while <conditions>:
@@ -520,7 +520,7 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjYyMDExNDYsNzUzNDI1OTMsLTIzNj
+eyJoaXN0b3J5IjpbLTEwMzAxNTQyNjYsNzUzNDI1OTMsLTIzNj
 QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
 MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
 E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
