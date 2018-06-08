@@ -35,7 +35,15 @@ def <function name>(<parameters, if any>):
 ````
 followed by code. All code must be indented by one and only one indent following a function declaration. There is no return type.
 
-Unlike Java or C++, function overloading is not allowed. However, Python allows for default parameters, or values that a parameter takes if one is not explicitly specifie
+Unlike Java or C++, function overloading is not allowed. However, Python allows for default parameters, or values that a parameter takes if one is not explicitly specified:
+```python
+def <function-name>(<parameters>, <argument>=<value>, ...):
+	<code>
+	
+# e.g.
+def foo(a, b, c=1):
+	<code>
+	
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -389,7 +397,7 @@ with open('<file path>', '<permissions>') as <variable>:
 ### First-class Citizens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYxOTE2NiwxMDU5NDEzOTM2LDE3Mz
+eyJoaXN0b3J5IjpbLTkzNDU1Nzk4MiwxMDU5NDEzOTM2LDE3Mz
 kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
 OTEsNDE1Njg4Mzk5XX0=
 -->
