@@ -353,8 +353,9 @@ dict(a) # {1: 2, 3: 4}
 **open** Used to open a file. This returns an `io.TextWrapper` object, which can be used to read the contents of the file.
 ```python
 f = open('<file path>', '<permissions>')
-f = open('<file path>', 'r') # only allow read
+f = open('<file path>', 'r') # read only
 f = open('<file path>', 'w') # write only
+f = open('<file path>', 'w+') # opens for read
 f.read() # gets all data from the file
 f.readline() # gets a single line from the file
 f.readlines() # gets all lines from the file and stores it into an array
@@ -368,7 +369,7 @@ f.seek(<offset>, <reference>) # goes to offset bytes from reference:
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjk4MjI1MSwxMDU5NDEzOTM2LDE3Mz
+eyJoaXN0b3J5IjpbLTExMjUwMjQ2OCwxMDU5NDEzOTM2LDE3Mz
 kxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3
 OTEsNDE1Njg4Mzk5XX0=
 -->
