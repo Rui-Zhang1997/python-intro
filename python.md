@@ -80,15 +80,15 @@ There is a single conditional in Python, which is the {\em if...elif...else}. Un
 ```python
 if (not) <condition> (and|or) <condition> .... :
 ```
-Not that python does not use operators such as `!`, `&`, and `||` to denote negation, and, or but instead uses `not`, `and`,  `or`, respectively. Using the symbols results in a `SyntaxError`. There is also another operator which is `in`, allowing one to test for membership within a collection. For example,
+Not that python does not use operators such as `!`, `&`, and `||` to denote negation, and, and or but instead uses `not`, `and`,  and `or`, respectively. Using the symbols results in a `SyntaxError`. There is also another operator which is `in`, allowing one to test for membership within a collection. For example,
 ```python
-'hello' in 'hello world'
+'hello' in 'hello world' # true
 
 # or
-1 in [1, 2, 3, 4]
+1 in [1, 2, 3, 4] # true
 
 # or
-'apples' not in ['pears', 'lemons', 'grapes']
+'apples' not in ['pears', 'lemons', 'grapes'] # false
 ```
 #### Ternary Operators
 Python does not have a ternary operator (`<condition> ? <execute if true> : <execute if false>`) and this was a design choice.
@@ -98,7 +98,7 @@ Instead, one can use a modified if else:
 
 # e.g.
 a = 10
-b = a-1 if a == 10 else a+1
+b = a-1 if a == 10 else a+1 # b is 9 since a == 10
 ```
 ### Loops
 Python has loops, `while` and `for`, which has the following syntax.
@@ -509,8 +509,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NTA4NzE0Miw3NTM0MjU5MywtMjM2ND
-EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
-NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbLTExNDI5NzM4OTgsNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
