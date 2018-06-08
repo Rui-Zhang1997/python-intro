@@ -334,7 +334,13 @@ accounts = []
 for i in range(len(accounts)):
 	accounts.append((account_holders[i], savings[i], checkings[i]))
 ```
-This way work
+This way works, but we can also do the last three lines in a single line:
+```python
+account_holders = [...list of names...]
+checkings = [...values...]
+savings = [...values...]
+accounts = list(zip(account_holders, savings, checkings)
+```
 {\bf len}
 
 {\bf dict, list, tuple, set}
@@ -345,7 +351,7 @@ This way work
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNjk5OTcxLDE3MzkxNzc0NzksMzA3MD
-E1NjY2LC0xNDU1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5
-XX0=
+eyJoaXN0b3J5IjpbLTEyMzczODkyNjAsMTczOTE3NzQ3OSwzMD
+cwMTU2NjYsLTE0NTU2MTY2ODIsLTE0ODA1ODc5MSw0MTU2ODgz
+OTldfQ==
 -->
