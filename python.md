@@ -224,14 +224,14 @@ class A:
 	def foo(self):
 		print(a)
 ```
-The constructor for a class is a special function called the \_\_init\_\_ function, which is empty by default. In addition, one does not need to define an attribute outside of all functions but can also be initializ
+The constructor for a class is a special function called the \_\_init\_\_ function, which is empty by default. In addition, one does not need to define an attribute outside of all functions but can also be created inside the *init* function, which can be useful for attributes that cannot take on a value of their own and **must** be initialized.
 
 All instance functions are defined as follows:
 ```python
 def <function name>(<self-reference-parameter>, <parameters>):
 	<code>
 ```
-The first parameter of an instance function is the *self parameter*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). If one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line above, e.g.
+The first parameter of an instance function is the *self parameter*, which is traditionally called "self" but can be called anything one wants, is used to reference instance functions and variables (e.g. `self.variable` or `self.function()`). When doing a call to an instance method, the instance itself is implicitly passed as the firstIf one is making a static function (or static method, as it is so called in Python), then the first parameter is not the *self parameter* and alos must append the @classmethod decorator to the line above, e.g.
 ```python
 @classmethod
 def <function-name>(<parameters>):
@@ -519,8 +519,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjQ2MTU1NjksNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbNDEyMzY1MTAxLDc1MzQyNTkzLC0yMzY0MT
+I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
+LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
