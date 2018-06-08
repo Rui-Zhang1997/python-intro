@@ -181,7 +181,7 @@ While is very similar to whiles in other languages.
 while <conditions>:
 	<code>
 ```
-### Notes
+### loop...else...
 Unlike other languages, `for` and `while` also takes an `else` clause, which will execute if the loop completes. This is useful if one is searching for something in a list and wants different code to execute if it finds what it is looking for in the list and do something else if one is not found. For example, let us say we are looking for a name. If a name is found, then one would stop searching but if it is not found, then the loop completes and the else would execute. This is cleaner than using a flag, for example
 ```python
 # without using for...else...
@@ -204,6 +204,7 @@ else:
 	<name not found code>
 <other code>
 ```
+This allows for clean
 ### Classes
 Python is an object-oriented language, meaning that it supports classes. Class declarations are as follows:
 ```python
@@ -509,8 +510,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjYwMTYzNDMsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbLTM1MDE0NTYwOSw3NTM0MjU5MywtMjM2ND
+EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
+NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
