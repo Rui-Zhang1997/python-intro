@@ -218,7 +218,6 @@ class <class name>(<classes inherited from>):
 	<functions>
 
 # e.g.
-
 class A:
 	a = 1
 	def foo(self):
@@ -520,8 +519,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAxNTQyNjYsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbODkzNjIxMzY4LC0xMDMwMTU0MjY2LDc1Mz
+QyNTkzLC0yMzY0MTI4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3
+OSwxMDU5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xND
+U1NjE2NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
