@@ -494,18 +494,20 @@ There is an \_\_init\_\_.py file in every directory that needs to act like a mod
 ### virtualenv
 The Python Standard Library provides a virtualenv package which creates virtual environments. However, it must first be installed by using `pip install virtualenv` to install it globally. After it has successfully installed, one can do
 ```
-virtualenv <virtual environment name> # creates a virtual environment with name
-virtualenv <virtual environment name> -p <python>
+$ virtualenv <virtual environment name> # creates a virtual environment
+										  with name
+$ virtualenv <virtual environment name> -p <python>
 	^^^^^^ creates a virtual environment geared the specified version of python
 	Useful for machines with multiple python installations (very common).
+	
 # After a virtual environment has been created
-source <venv name>/bin/activate # starts the virtual environment
-deactivate # executing inside an active virtual env will stop it
+$ source <venv name>/bin/activate # starts the virtual environment
+$ deactivate # executing inside an active virtual env will stop it
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkwOTcxODU1LDc1MzQyNTkzLC0yMzY0MT
-I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
-LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
-gwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTA0NTk2OTc0MSw3NTM0MjU5MywtMjM2ND
+EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
+NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
+Q4MDU4NzkxLDQxNTY4ODM5OV19
 -->
