@@ -490,10 +490,10 @@ A virtual environment is useful for isolating one particular python projects fro
 		morecode.py
 		__init__.py
 ```
-There is an \_\_init\_\_.py file in every directory that needs to act like a module. Without it, python will not see the folder as a module. By setting a virtual environment, in code.py if one can import something from the topmost app.py by just `import app` and in app.py, it can import morecode.py by `from folder1 import morecode`. If a virtual
+There is an \_\_init\_\_.py file in every directory that needs to act like a module. Without it, python will not see the folder as a module. By setting a virtual environment, in code.py if one can import something from the topmost app.py by just `import app` and in app.py, it can import morecode.py by `from folder1 import morecode`. If a virtualenv is not created in project-root then the path has to be added to sys.path. This is not optimal since if another
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU2ODAyNDMsNzUzNDI1OTMsLTIzNj
-QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
-MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
-E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
+eyJoaXN0b3J5IjpbMTE2MDE0MDg5LDc1MzQyNTkzLC0yMzY0MT
+I4NzYsMTkzMTY2NDQzMSwtMTU3MzAzODM3OSwxMDU5NDEzOTM2
+LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2NjgyLC0xND
+gwNTg3OTEsNDE1Njg4Mzk5XX0=
 -->
