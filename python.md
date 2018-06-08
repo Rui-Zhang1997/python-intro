@@ -357,12 +357,16 @@ f.read() # gets all data from the file
 f.readline() # gets a single line from the file
 f.readlines() # gets all lines from the file and stores it into an array
 			  # where each element is a line
+f.seek(<offset>, <reference>) # goes to offset bytes from reference:
+							  # 0 - start of file
+							  # 1 - current position
+							  # 2 - end of file
 
 {\bf dir}
 
 {\bf super}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTQxMzkzNiwxNzM5MTc3NDc5LDMwNz
-AxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4NzkxLDQxNTY4ODM5
-OV19
+eyJoaXN0b3J5IjpbLTIwNjU2MDk2NDIsMTA1OTQxMzkzNiwxNz
+M5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMTQ4MDU4
+NzkxLDQxNTY4ODM5OV19
 -->
