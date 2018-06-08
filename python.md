@@ -45,7 +45,7 @@ def foo(a, b, c=1):
 	<code>
 ```
 #### varargs
-Python supports for multiple arguments and variable keyword arguments. To do this, attach `*` to the beginning of a variable makes it accept a variable number of arguments and  attaching `**` will allow for a variable number of keyworded arguments:
+Python supports variable arguments and variable keyword arguments, meaning if, desired, a function can accept arguments and keyword arguments beyond those already specified. To do this, attach `*` to the beginning of a parameter makes it accept a variable number of arguments and  attaching `**` will allow for a parameter to accept keyword arguments:
 ```python
 def foo(*args):
 	print(args)
@@ -507,7 +507,7 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNzY4ODUwMiw3NTM0MjU5MywtMjM2ND
+eyJoaXN0b3J5IjpbLTE0MzkzMjIxNCw3NTM0MjU5MywtMjM2ND
 EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
 NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
 Q4MDU4NzkxLDQxNTY4ODM5OV19
