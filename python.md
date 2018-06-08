@@ -44,6 +44,7 @@ def <function-name>(<parameters>, <argument>=<value>, ...):
 def foo(a, b, c=1):
 	<code>
 ```
+Parameters with default values **must** come after those without default values.
 #### varargs
 Python supports variable arguments and variable keyword arguments, meaning if, desired, a function can accept arguments and keyword arguments beyond those already specified. To do this, attach `*` to the beginning of a parameter makes it accept a variable number of arguments and  attaching `**` will allow for a parameter to accept keyword arguments:
 ```python
@@ -73,6 +74,7 @@ def subtract(a, b):
 	print(a - b)
 subtract(**args) # prints -10
 ```
+
 ### Conditions
 There is a single conditional in Python, which is the {\em if...elif...else}. Unlike other languages, there is no switch. The syntax
 ```python
@@ -507,8 +509,8 @@ $ deactivate # executing inside an active virtual env will exit from the
 ```
 It is very common to name the virtual environment `venv`, `env`, or `ENV` but it can be named anything one wants it to be. Also, the virtual environment should usually not be pushed to a git repository and should be added to the .gitignore as different machines might have different virtual environment setups.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzkzMjIxNCw3NTM0MjU5MywtMjM2ND
-EyODc2LDE5MzE2NjQ0MzEsLTE1NzMwMzgzNzksMTA1OTQxMzkz
-NiwxNzM5MTc3NDc5LDMwNzAxNTY2NiwtMTQ1NTYxNjY4MiwtMT
-Q4MDU4NzkxLDQxNTY4ODM5OV19
+eyJoaXN0b3J5IjpbLTE5ODk5MDY5NjQsNzUzNDI1OTMsLTIzNj
+QxMjg3NiwxOTMxNjY0NDMxLC0xNTczMDM4Mzc5LDEwNTk0MTM5
+MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2ODIsLT
+E0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
