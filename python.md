@@ -452,8 +452,11 @@ from package import package_items
 from package import package_item as alias
 ```
 In order to find the package, Python keeps a list of directories in which to look for each module, accessible through the `sys.path` attribute.
+
+### Custom Modules
+Obviously, there has to be a way to access custom modules. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMTM5NzA4MiwtMTU3MzAzODM3OSwxMD
-U5NDEzOTM2LDE3MzkxNzc0NzksMzA3MDE1NjY2LC0xNDU1NjE2
-NjgyLC0xNDgwNTg3OTEsNDE1Njg4Mzk5XX0=
+eyJoaXN0b3J5IjpbMTI2NjI2NDM4LC0xNTczMDM4Mzc5LDEwNT
+k0MTM5MzYsMTczOTE3NzQ3OSwzMDcwMTU2NjYsLTE0NTU2MTY2
+ODIsLTE0ODA1ODc5MSw0MTU2ODgzOTldfQ==
 -->
